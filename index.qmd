@@ -14,6 +14,8 @@ format:
     transition-speed: fast
 ---
 
+## Camille Pelletier<br>Sarah-Jane Vincent {.center .smaller}
+
 ## Presentation outline{.smaller}
 
 ### The Datagotchi project
