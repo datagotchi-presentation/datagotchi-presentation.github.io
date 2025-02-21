@@ -17,6 +17,7 @@ format:
 ## Camille Pelletier<br>Sarah-Jane Vincent {.center .smaller}
 
 ## Presentation outline{.smaller}
+<br>
 
 ### The Datagotchi project
 - What is Datagotchi?
@@ -46,7 +47,45 @@ format:
 - Training vector
 
 
+## Datagotchi Canada 2025 {.smaller}
 
+
+
+## And more... {.smaller}
+
+### Datagotchi Literature
+
+:::: {.columns}
+
+:::: {.column width="40%"}
+
+![](img/datagotchi_litt.png)
+:::
+
+::: {.column width="60%" style="padding-left: 2em;"}
+Personalized literary recommendations
+:::
+
+::::
+
+
+## And more... {.smaller}
+
+### Datagotchi Health
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](img/datagotchi_sante.png)
+:::
+
+::: {.column width="60%" style="padding-left: 2em;"}
+A tool to track and improve your daily well-being habits
+:::
+
+::::
+
+## Datagotchi for Deliberation {.smaller}
 
 
 ## Merci!{.center}
