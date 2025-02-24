@@ -31,11 +31,79 @@ format:
 
 
 
-## A little history... {.center .smaller} 
+## What is Datagotchi? {.center .smaller} 
+
+### A little history... {.smaller}
+
+:::: {.columns}
+
+:::: {.column width="40%"}
+![](img/build_voter.png)
+:::
+
+::: {.column width="60%" style="padding-left: 2em;"}
+
+![](img/build_voter2.png)
+:::
+:::
+
+
+
+## What is Datagotchi now? {.smaller}
+
+<br>
+
+- First platform visualizing lifestyle factors in political decision-making
+- Interactive survey with real-time visualization
+- Uses ML to analyze lifestyle variables beyond demographics
+- Predicts voting intentions through massive data analysis
+
+![](img/data_app.png){.absolute top=350 left=700 width="350" height="300"}
+
+
+::: {.notes}
+Datagotchi is the first-ever platform to use AI and a variety of machine learning routines which allow citizens to visualize in real time how lifestyle can explain (and predict) their voting intentions. Through an interactive and fully illustrated survey, the platform enables the use of massive data and AI to understand the contribution of lifestyle variables (by simultaneously considering several variables from massive databases) in predicting political decision-making and voting, beyond standard socio-demographic predictors.
+:::
+
+## What is Datagotchi? {.smaller} 
+
+### Theoretical Background {.smaller}
+
+<div style="margin-bottom: 30px;"></div>
+
+- Traditional polling (1940s+): Key characteristics like social class, religion, and residence strongly predicted voting choice (Lazarsfeld et al., 1994)
+
+<div style="margin-bottom: 30px;"></div>
+
+- Modern shift: Predictive power of conventional cleavages has declined as societies became more fragmented (Dalton, 2000; Franklin, 1984; Norris, 2005)
+
+
+
+## What is Datagotchi? {.smaller} 
+
+### Theoretical Background {.smaller}
+
+<div style="margin-bottom: 30px;"></div>
+
+- Growing heterogeneity within traditional demographic groups (Wessels et al., 2014)
+
+<div style="margin-bottom: 20px;"></div>
+
+- Lifestyle emerges as critical variable: Intersects individual personality and interests with social/cultural context
+
+<div style="margin-bottom: 20px;"></div>
+
+- Lifestyle helps identify politically significant subgroups beyond traditional demographics
 
 
 
 ## How does it work? {.smaller}
+
+
+
+## How does it work? {.smaller}
+
+### Models and Accuracy {.smaller}
 
 
 
@@ -45,7 +113,6 @@ format:
 - Knowledge transfer
 - Awareness
 - Training vector
-
 
 ## Datagotchi Canada 2025 {.smaller}
 
