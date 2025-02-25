@@ -14,30 +14,31 @@ format:
     transition-speed: fast
 ---
 
-## Camille Pelletier<br>Sarah-Jane Vincent {.center .smaller}
-
 ## Presentation outline{.smaller}
 <br>
 
 ### The Datagotchi project
-- What is Datagotchi?
-- How does it work?
-- Key objectives
 
 ### Datagotchi Canada 2025
 
+### Datagotchi - Other Editions
+
 ### Datagotchi Deliberation
-
-
 
 
 ## What is Datagotchi? {.center .smaller} 
 
 ### A little history... {.smaller}
 
+
 :::: {.columns}
 
 :::: {.column width="40%"}
+- Yannick Dufresne, Professor at Université Laval
+- Catherine Ouellet, Professor at Université de Montréal
+
+
+
 ![](img/build_voter.png)
 :::
 
@@ -47,7 +48,14 @@ format:
 :::
 :::
 
+## What is Datagotchi now? {.center .smaller} 
 
+- René Audet, Professor at Université Laval
+- Simon Coulombe, Professor at Université Laval
+- Manuel Morales, Professor at Université de Montréal
+- Alexandre Pelletier, Professor at Université Laval
+
+![](img/partenaires.png)
 
 ## What is Datagotchi now? {.smaller}
 
@@ -99,24 +107,114 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ## How does it work? {.smaller}
 
+- Pilot survey - Testing a battery of questions. (n = 2000)
+- Build a model and select the questions to include in the app.
+
+![](img/lifestylePilote.png)
 
 
 ## How does it work? {.smaller}
 
 ### Models and Accuracy {.smaller}
 
-
+- Multinomial regression models are being used due to their high accuracy and comprehensibility.
+- As users of Datagotchi provide feedback on the accuracy of the predictions, the algorithm improves over time. 
+- In other words, as Datagotchi becomes more popular, the prediction algorithm becomes more effective. 
+- Lifestyle attributes have shown significant associations with political preferences, independent of the variations explained by traditional divisions.
+- Incorporating lifestyle variables into the models, in addition to sociodemographic variables, led to an improvement in accuracy of approximately 11% to 15% compared to the initial models.
 
 ## Key objectives {.smaller}
 
-- Data collection tool
-- Knowledge transfer
-- Awareness
-- Training vector
+Data collection tool: Scientific impact in the form of academic publications, conferences, etc.
+
+
+
+![](img/exemplePublication1.png){.absolute top=250 left=100}
+
+## Key objectives {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Awareness on the importance of personal data
+  - Political Parties and businesses have access to it and can use it as they wish. 
+  - Raising citizen awareness about the richness and predictive value of individual data. 
+  - A tool for depolarization and popularization. 
+  - Importance of the interactive simulator.
+
+:::
+
+::: {.column width="50%"}
+
+![](img/exempleSimulateur.png){.absolute top=10 left=600}
+:::
+
+::::
+
+## Key objectives {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+- Student training on all stages of the project
+  - Literature review for question selection
+  - Ethics committee management
+  - Funding applications
+  - Survey programming
+  - Model development
+  - Partner management
+  - Analysis and publication writing
+  - Public dissemination of results
+:::
+
+::: {.column width="60%"}
+![](img/map_prius_pickup_top.png){.absolute top=10 left=470 width="500" height="300"}
+![](img/bar_graph_classic_meal_income_fr.png){.absolute top=350 left=470 width="500" height="300"}
+
+
+:::
+
+::::
+
 
 ## Datagotchi Canada 2025 {.smaller}
 
+- Current edition
+- Objective: Predict voting intention for Canadian voters.
+- New addition: Clusters
+- Partnership with Léger
+- Simultaneous use of a panel
 
+## Datagotchi Canada 2025 {.smaller}
+
+![](img/questionTransport.png){.absolute top=100 left=-125 width="350" height="550"}
+
+![](img/questionLifestyle.png){.absolute top=100 left=350 width="350" height="550"}
+
+![](img/questionEduc.png){.absolute top=100 left=825 width="350" height="550"}
+
+
+## Datagotchi Canada 2025 {.smaller}
+
+![](img/votingPrediction.png){.absolute top=100 left=-125 width="350" height="550"}
+
+![](img/probabilityTurnout.png){.absolute top=100 left=350 width="350" height="550"}
+
+![](img/peoplePred.png){.absolute top=100 left=825 width="350" height="550"}
+
+## Datagotchi Canada 2025 {.smaller}
+
+![](img/imageFinaleDatagotchiQuebec.png){.absolute top=100 left=-125 width="450" height="450"}
+
+![](img/exempleSimulateur.png){.absolute top=100 left=350 width="350" height="550"}
+
+![](img/imageFinaleDatagotchiCanada.png){.absolute top=100 left=725 width="450" height="450"}
+
+## And more... {.smaller}
+
+- Interdisciplinarity
+- Not just vote predictions—we can explore multiple directions.
 
 ## And more... {.smaller}
 
@@ -130,11 +228,14 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-Personalized literary recommendations
+- Partnership with Les Libraires
+- Predicting favorite literary genres
+- Personalized literary recommendations
+- Bookmarks with a QR code for each literary genre to provide easy access to recommendations
+- Presence at book fairs to showcase the tool, with very positive feedback from readers
 :::
 
 ::::
-
 
 ## And more... {.smaller}
 
@@ -147,12 +248,74 @@ Personalized literary recommendations
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-A tool to track and improve your daily well-being habits
+- Prédire le niveau de bien-être positif
+- Partenariat avec Vicky d'Essaim
+- A tool to track and improve your daily well-being habits
+- Pas encore déployé (préciser environ on en est rendu où)
 :::
 
 ::::
 
 ## Datagotchi for Deliberation {.smaller}
+### Context
+
+## Datagotchi for Deliberation {.smaller}
+### 4 steps
+
+1. Déploiement de l’outil Datagotchi Chatbot 
+2. Revue documentaire systématique 
+3. Groupes de discussion enrichis par Datagotchi Chatbot
+4. Réunion de groupe d’experts
+
+## Datagotchi Chatbot {.smaller}
+### En cours
+
+- Intégration dans une édition "actuelle"?
+
+## Datagotchi for Deliberation {.smaller}
+### Team
+
+- Manuel Morales, Professor at Université de Montréal
+- Yannick Dufresne, Professor at Université Laval
+- Catherine Ouellet, Professor at Université de Montréal
+- Marc-Antoine Dilhac, Professor at Université de Montréal
+- Evelyne Brie, Professor at Université de Montréal
+
+## Muchas Gracias!{.center .smaller}
+
+:::: {.columns}
+
+:::: {.column width="50%"}
+**Camille Pelletier**
+
+camille.pelletier.12@ulaval.ca
+
+**Sarah-Jane Vincent**
+
+sarah-jane.vincent.1@ulaval.ca
+
+**https://www.datagotchi.com/**
+
+**Follow us:**
+
+Facebook: Datagotchi
+
+Bsky: @datagotchi.bsky.social
+
+LinkedIn: Datagotchi_fr & Datagotchi_en
+
+Instagram: Datagotchi_fr & Datagotchi_en
+
+X: Datagotchi_fr & Datagotchi_en
 
 
-## Merci!{.center}
+:::
+
+::: {.column width="50%" style="padding-left: 2em;"}
+
+
+![](img/websiteDatagotchi.png){.absolute top=100 left=600 width="550" height="350"}
+:::
+:::
+
+
