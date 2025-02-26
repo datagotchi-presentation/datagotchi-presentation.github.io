@@ -397,6 +397,7 @@ First we'll develop an AI-based conversational agent, accessible and intuitive f
 ## Expected Results {.smaller}
 ### Impact & Perspectives
 <br>
+
 - **Improvement of deliberative processes**
   * Exportable model to other urban contexts
   * Innovative methodology combining AI and citizen deliberation
