@@ -14,9 +14,11 @@ format:
     transition-speed: fast
 ---
 
-## Presentation outline{.smaller}
+## Presentation outline {.smaller}
+
 <br>
 
+::: {style="font-size: 1.2em; text-align: center;"}
 ### The Datagotchi project
 
 ### Datagotchi Canada 2025
@@ -24,6 +26,7 @@ format:
 ### Datagotchi - Other Editions
 
 ### Datagotchi Deliberation
+:::
 
 
 ## What is Datagotchi? {.center .smaller} 
@@ -36,8 +39,6 @@ format:
 :::: {.column width="40%"}
 - Yannick Dufresne, Professor at Université Laval
 - Catherine Ouellet, Professor at Université de Montréal
-
-
 
 ![](img/build_voter.png)
 :::
@@ -61,13 +62,21 @@ format:
 
 <br>
 
-- First platform visualizing lifestyle factors in political decision-making
+:::: {.columns}
+
+:::: {.column width="60%"}
+- First platform to visualize the impact of lifestyle factors in voting intentions
 - Interactive survey with real-time visualization
 - Uses ML to analyze lifestyle variables beyond demographics
 - Predicts voting intentions through massive data analysis
+::::
 
-![](img/data_app.png){.absolute top=350 left=700 width="350" height="300"}
+::: {.column width="40%"}
 
+![](img/data_app.png){.absolute top=200 left=700 width="350" height="300"}
+:::
+
+::::
 
 ::: {.notes}
 Datagotchi is the first-ever platform to use AI and a variety of machine learning routines which allow citizens to visualize in real time how lifestyle can explain (and predict) their voting intentions. Through an interactive and fully illustrated survey, the platform enables the use of massive data and AI to understand the contribution of lifestyle variables (by simultaneously considering several variables from massive databases) in predicting political decision-making and voting, beyond standard socio-demographic predictors.
@@ -107,35 +116,40 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ## How does it work? {.smaller}
 
-- Pilot survey - Testing a battery of questions. (n = 2000)
-- Build a model and select the questions to include in the app.
+- **Comprehensive pilot survey** - Evaluated question battery with a sample (n=2000)
+- **Data-driven model development** - Statistical selection of app questionnaire items
 
 ![](img/lifestylePilote.png)
+
 
 
 ## How does it work? {.smaller}
 
 ### Models and Accuracy {.smaller}
 
-- Multinomial regression models are being used due to their high accuracy and comprehensibility.
-- As users of Datagotchi provide feedback on the accuracy of the predictions, the algorithm improves over time. 
-- In other words, as Datagotchi becomes more popular, the prediction algorithm becomes more effective. 
-- Lifestyle attributes have shown significant associations with political preferences, independent of the variations explained by traditional divisions.
-- Incorporating lifestyle variables into the models, in addition to sociodemographic variables, led to an improvement in accuracy of approximately 11% to 15% compared to the initial models.
+<br>
+
+- **Multinomial regression models** - Chosen for accuracy and comprehensibility
+- **Self-improving algorithm** - Refines predictions based on user feedback
+- **Lifestyle-politics connection** - Significant associations independent of traditional divisions
+- **Enhanced accuracy** - 11-15% improvement when lifestyle variables added to sociodemographics
+
+
 
 ## Key objectives {.smaller}
 
-Data collection tool: Scientific impact in the form of academic publications, conferences, etc.
-
-
+- Data collection tool
+  - Scientific contributions through academic publications, international conferences, etc.
 
 ![](img/exemplePublication1.png){.absolute top=250 left=100}
+
+
 
 ## Key objectives {.smaller}
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 - Awareness on the importance of personal data
   - Political Parties and businesses have access to it and can use it as they wish. 
   - Raising citizen awareness about the richness and predictive value of individual data. 
@@ -144,9 +158,9 @@ Data collection tool: Scientific impact in the form of academic publications, co
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
-![](img/exempleSimulateur.png){.absolute top=10 left=600}
+![](img/exempleSimulateur.png){.absolute top=10 left=700}
 :::
 
 ::::
@@ -156,7 +170,7 @@ Data collection tool: Scientific impact in the form of academic publications, co
 
 :::: {.columns}
 
-::: {.column width="45%"}
+::: {.column width="60%"}
 - Student training on all stages of the project
   - Literature review for question selection
   - Ethics committee management
@@ -168,9 +182,9 @@ Data collection tool: Scientific impact in the form of academic publications, co
   - Public dissemination of results
 :::
 
-::: {.column width="60%"}
-![](img/map_prius_pickup_top.png){.absolute top=10 left=470 width="500" height="300"}
-![](img/bar_graph_classic_meal_income_fr.png){.absolute top=350 left=470 width="500" height="300"}
+::: {.column width="40%"}
+![](img/map_prius_pickup_top.png){.absolute top=10 left=600 width="500" height="300"}
+![](img/bar_graph_classic_meal_income_fr.png){.absolute top=350 left=600 width="500" height="300"}
 
 
 :::
@@ -180,11 +194,16 @@ Data collection tool: Scientific impact in the form of academic publications, co
 
 ## Datagotchi Canada 2025 {.smaller}
 
-- Current edition
-- Objective: Predict voting intention for Canadian voters.
-- New addition: Clusters
-- Partnership with Léger
-- Simultaneous use of a panel
+**Current edition**
+
+<br>
+
+- **Main Objective: Predict voting intention for Canadian voters**
+- **New addition: Clusters**
+- **Partnership with Léger**
+- **Simultaneous use of a panel**
+
+
 
 ## Datagotchi Canada 2025 {.smaller}
 
@@ -213,8 +232,19 @@ Data collection tool: Scientific impact in the form of academic publications, co
 
 ## And more... {.smaller}
 
-- Interdisciplinarity
-- Not just vote predictions—we can explore multiple directions.
+### Adaptability & Future Applications
+
+<br>
+
+- **Flexible infrastructure** - Easily adaptable to other disciplines
+- **Health applications** - Project already funded for health-related deployments
+- **Political science expansion** - Predicting turnout and issue attitudes beyond vote choice
+- **Cultural customization** - Tailored to specific cultural contexts where deployed
+- **International versions** - Development underway for Japanese and Indonesian elections
+
+::: {.notes}
+With the flexible and sustainable infrastructure of Datagotchi, it is possible to adapt the app to other disciplines. The project already received funding to apply the tool in other areas like health. In political science, the goal is to predict attitudes and behaviors beyond vote choice – such as turnout, or attitudes towards issues. As the relationship between lifestyle and politics is contingent on the cultural context, Datagotchi is tailored to the specific culture in which it is deployed. Discussions are underway to develop versions of Datagotchi in other electoral contexts, including Japanese, and Indonesian national elections. 
+:::
 
 ## And more... {.smaller}
 
@@ -228,11 +258,11 @@ Data collection tool: Scientific impact in the form of academic publications, co
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-- Partnership with Les Libraires
-- Predicting favorite literary genres
-- Personalized literary recommendations
-- Bookmarks with a QR code for each literary genre to provide easy access to recommendations
-- Presence at book fairs to showcase the tool, with very positive feedback from readers
+- **Partnership with Les Libraires**
+- **Predicting favorite literary genres**
+- **Personalized literary recommendations**
+- **Bookmarks with a QR code for each literary genre to provide easy access to recommendations**
+- **Presence at book fairs to showcase the tool, with very positive feedback from readers**
 :::
 
 ::::
@@ -248,10 +278,10 @@ Data collection tool: Scientific impact in the form of academic publications, co
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-- Prédire le niveau de bien-être positif
-- Partenariat avec Vicky d'Essaim
-- A tool to track and improve your daily well-being habits
-- Pas encore déployé (préciser environ on en est rendu où)
+- **Predict the level of well-being**
+- **Aims to track and improve your daily well-being habits**
+- **Not just based on lifestyle variables, but also according to your workplace environment, neighborhood, sleep levels, etc.**
+- **Not yet deployed, but currently developing the app**
 :::
 
 ::::
@@ -262,10 +292,14 @@ Data collection tool: Scientific impact in the form of academic publications, co
 ## Datagotchi for Deliberation {.smaller}
 ### 4 steps
 
-1. Déploiement de l’outil Datagotchi Chatbot 
-2. Revue documentaire systématique 
-3. Groupes de discussion enrichis par Datagotchi Chatbot
-4. Réunion de groupe d’experts
+<br>
+
+1. **Deployment of the Datagotchi Chatbot tool**
+2. **Systematic literature review**
+3. **Focus groups enhanced by Datagotchi Chatbot**
+4. **Expert group meeting**
+
+
 
 ## Datagotchi Chatbot {.smaller}
 ### En cours
