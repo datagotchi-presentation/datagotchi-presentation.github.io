@@ -319,6 +319,7 @@
       margin-right: 0; 
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -342,13 +343,39 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </section>
 <section id="presentation-outline" class="slide level2 smaller">
 <h2>Presentation outline</h2>
-<p><br></p>
-<div style="font-size: 1.2em; text-align: center;">
-<h3 id="the-datagotchi-project">The Datagotchi project</h3>
-<h3 id="datagotchi-canada-2025">Datagotchi Canada 2025</h3>
-<h3 id="datagotchi---other-editions">Datagotchi - Other Editions</h3>
-<h3 id="datagotchi-deliberation">Datagotchi Deliberation</h3>
+<div style="margin-bottom: 30px;">
+
 </div>
+<ul>
+<li><strong>The Datagotchi Project</strong>
+<ul>
+<li>Foundation and core concepts</li>
+</ul></li>
+</ul>
+<div style="margin-bottom: 20px;">
+
+</div>
+<ul>
+<li><strong>Datagotchi Canada 2025</strong></li>
+</ul>
+<div style="margin-bottom: 20px;">
+
+</div>
+<ul>
+<li><strong>Datagotchi - Other Editions</strong>
+<ul>
+<li>International applications</li>
+</ul></li>
+</ul>
+<div style="margin-bottom: 20px;">
+
+</div>
+<ul>
+<li><strong>Datagotchi Deliberation</strong>
+<ul>
+<li>Impact and future directions</li>
+</ul></li>
+</ul>
 </section>
 <section id="what-is-datagotchi" class="slide level2 center smaller">
 <h2>What is Datagotchi?</h2>
@@ -356,8 +383,8 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <div class="columns">
 <div class="column" style="width:40%;">
 <ul>
-<li>Yannick Dufresne, Professor at Université Laval</li>
-<li>Catherine Ouellet, Professor at Université de Montréal</li>
+<li>Yannick Dufresne, Prof.&nbsp;at Université Laval</li>
+<li>Catherine Ouellet, Prof.&nbsp;at Université de Montréal</li>
 </ul>
 <p><img data-src="img/build_voter.png"></p>
 </div><div class="column" style="padding-left: 2em;">
@@ -365,26 +392,31 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </div>
 </div>
 </section>
-<section id="what-is-datagotchi-now" class="slide level2 center smaller">
+<section id="what-is-datagotchi-now" class="slide level2 center smaller" data-transition="none">
 <h2>What is Datagotchi now?</h2>
 <ul>
-<li>René Audet, Professor at Université Laval</li>
-<li>Simon Coulombe, Professor at Université Laval</li>
-<li>Manuel Morales, Professor at Université de Montréal</li>
-<li>Alexandre Pelletier, Professor at Université Laval</li>
+<li>Manuel Morales, Prof.&nbsp;at Université de Montréal</li>
+<li>Simon Coulombe, Prof.&nbsp;at Université Laval</li>
+<li>René Audet, Prof.&nbsp;at Université Laval</li>
+<li>Alexandre Pelletier, Prof.&nbsp;at Université Laval</li>
 </ul>
 
 <img data-src="img/partenaires.png" class="r-stretch"></section>
-<section id="what-is-datagotchi-now-1" class="slide level2 smaller">
+<section id="what-is-datagotchi-now-1" class="slide level2 smaller" data-transition="none">
 <h2>What is Datagotchi now?</h2>
-<p><br></p>
+<div style="margin-bottom: 30px;">
+
+</div>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
-<li>First platform to visualize the impact of lifestyle factors in voting intentions</li>
-<li>Interactive survey with real-time visualization</li>
-<li>Uses ML to analyze lifestyle variables beyond demographics</li>
-<li>Predicts voting intentions through massive data analysis</li>
+<li><p>First platform to visualize the impact of lifestyle factors in voting intentions</p></li>
+<li><p>Interactive survey with real-time visualization</p>
+<ul>
+<li>Users receive immediate feedback on how their profile relates to voting patterns</li>
+<li>Visualizations update instantly as users input their information</li>
+<li>Creates engaging educational experience about electoral behavior</li>
+</ul></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="img/data_app.png" class="absolute" style="top: 200px; left: 700px; width: 350px; height: 300px; "></p>
@@ -404,45 +436,56 @@ Camille Pelletier<br>Sarah-Jane Vincent
           display:block!important;
       }</style></aside>
 </section>
-<section id="what-is-datagotchi-1" class="slide level2 smaller">
-<h2>What is Datagotchi?</h2>
+<section id="what-is-datagotchi-now-2" class="slide level2 smaller" data-transition="none">
+<h2>What is Datagotchi now?</h2>
 <h3 class="smaller" id="theoretical-background">Theoretical Background</h3>
-<div style="margin-bottom: 30px;">
-
-</div>
 <ul>
-<li>Traditional polling (1940s+): Key characteristics like social class, religion, and residence strongly predicted voting choice (Lazarsfeld et al., 1994)</li>
+<li>Traditional polling (1940s+)
+<ul>
+<li>Social determinants strongly predicted voting behavior (Lazarsfeld et al., 1994)</li>
+<li>Key factors included social class, religion, and residential location</li>
+<li>These stable cleavages created predictable voting patterns</li>
+</ul></li>
 </ul>
 <div style="margin-bottom: 30px;">
 
 </div>
 <ul>
-<li>Modern shift: Predictive power of conventional cleavages has declined as societies became more fragmented (Dalton, 2000; Franklin, 1984; Norris, 2005)</li>
+<li>Modern electoral shift
+<ul>
+<li>Traditional sociological predictors have lost explanatory power</li>
+<li>Societies have become more fragmented and individualized (Dalton, 2000; Franklin, 1984; Norris, 2005)</li>
+<li>Voters increasingly make choices based on issues rather than group identity</li>
+</ul></li>
 </ul>
 </section>
-<section id="what-is-datagotchi-2" class="slide level2 smaller">
-<h2>What is Datagotchi?</h2>
+<section id="what-is-datagotchi-now-3" class="slide level2 smaller" data-transition="none">
+<h2>What is Datagotchi now?</h2>
 <h3 class="smaller" id="theoretical-background-1">Theoretical Background</h3>
 <div style="margin-bottom: 30px;">
 
 </div>
 <ul>
-<li>Growing heterogeneity within traditional demographic groups (Wessels et al., 2014)</li>
+<li>Growing heterogeneity within traditional demographic groups
+<ul>
+<li>Traditional voting groups no longer vote cohesively</li>
+<li>Increased diversity of political opinions within the same social group</li>
+<li>Internal fragmentation challenges conventional polling approaches (Wessels et al., 2014)</li>
+</ul></li>
 </ul>
 <div style="margin-bottom: 20px;">
 
 </div>
 <ul>
-<li>Lifestyle emerges as critical variable: Intersects individual personality and interests with social/cultural context</li>
-</ul>
-<div style="margin-bottom: 20px;">
-
-</div>
+<li>Lifestyle emerges as critical variable in electoral behavior
 <ul>
-<li>Lifestyle helps identify politically significant subgroups beyond traditional demographics</li>
+<li>Represents intersection of individual personality and interests</li>
+<li>Connects personal attributes with broader social/cultural context</li>
+<li>Captures patterns invisible to traditional demographic segmentation</li>
+</ul></li>
 </ul>
 </section>
-<section id="how-does-it-work" class="slide level2 smaller">
+<section id="how-does-it-work" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
 <ul>
 <li><strong>Comprehensive pilot survey</strong> - Evaluated question battery with a sample (n=2000)</li>
@@ -450,7 +493,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </ul>
 
 <img data-src="img/lifestylePilote.png" class="r-stretch"></section>
-<section id="how-does-it-work-1" class="slide level2 smaller">
+<section id="how-does-it-work-1" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
 <h3 class="smaller" id="models-and-accuracy">Models and Accuracy</h3>
 <p><br></p>
@@ -461,7 +504,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li><strong>Enhanced accuracy</strong> - 11-15% improvement when lifestyle variables added to sociodemographics</li>
 </ul>
 </section>
-<section id="key-objectives" class="slide level2 smaller">
+<section id="key-objectives" class="slide level2 smaller" data-transition="none">
 <h2>Key objectives</h2>
 <ul>
 <li>Data collection tool
@@ -471,7 +514,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </ul>
 <p><img data-src="img/exemplePublication1.png" class="absolute" style="top: 250px; left: 100px; "></p>
 </section>
-<section id="key-objectives-1" class="slide level2 smaller">
+<section id="key-objectives-1" class="slide level2 smaller" data-transition="none">
 <h2>Key objectives</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
@@ -489,7 +532,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </div>
 </div>
 </section>
-<section id="key-objectives-2" class="slide level2 smaller">
+<section id="key-objectives-2" class="slide level2 smaller" data-transition="none">
 <h2>Key objectives</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
@@ -511,7 +554,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </div>
 </div>
 </section>
-<section id="datagotchi-canada-2025-1" class="slide level2 smaller">
+<section id="datagotchi-canada-2025" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi Canada 2025</h2>
 <p><strong>Current edition</strong></p>
 <p><br></p>
@@ -522,25 +565,25 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li><strong>Simultaneous use of a panel</strong></li>
 </ul>
 </section>
-<section id="datagotchi-canada-2025-2" class="slide level2 smaller">
+<section id="datagotchi-canada-2025-1" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi Canada 2025</h2>
 <p><img data-src="img/questionTransport.png" class="absolute" style="top: 100px; left: -125px; width: 350px; height: 550px; "></p>
 <p><img data-src="img/questionLifestyle.png" class="absolute" style="top: 100px; left: 350px; width: 350px; height: 550px; "></p>
 <p><img data-src="img/questionEduc.png" class="absolute" style="top: 100px; left: 825px; width: 350px; height: 550px; "></p>
 </section>
-<section id="datagotchi-canada-2025-3" class="slide level2 smaller">
+<section id="datagotchi-canada-2025-2" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi Canada 2025</h2>
 <p><img data-src="img/votingPrediction.png" class="absolute" style="top: 100px; left: -125px; width: 350px; height: 550px; "></p>
 <p><img data-src="img/probabilityTurnout.png" class="absolute" style="top: 100px; left: 350px; width: 350px; height: 550px; "></p>
 <p><img data-src="img/peoplePred.png" class="absolute" style="top: 100px; left: 825px; width: 350px; height: 550px; "></p>
 </section>
-<section id="datagotchi-canada-2025-4" class="slide level2 smaller">
+<section id="datagotchi-canada-2025-3" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi Canada 2025</h2>
 <p><img data-src="img/imageFinaleDatagotchiQuebec.png" class="absolute" style="top: 100px; left: -125px; width: 450px; height: 450px; "></p>
 <p><img data-src="img/exempleSimulateur.png" class="absolute" style="top: 100px; left: 350px; width: 350px; height: 550px; "></p>
 <p><img data-src="img/imageFinaleDatagotchiCanada.png" class="absolute" style="top: 100px; left: 725px; width: 450px; height: 450px; "></p>
 </section>
-<section id="and-more" class="slide level2 smaller">
+<section id="and-more" class="slide level2 smaller" data-transition="none">
 <h2>And more…</h2>
 <h3 id="adaptability-future-applications">Adaptability &amp; Future Applications</h3>
 <p><br></p>
@@ -565,7 +608,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
           display:block!important;
       }</style></aside>
 </section>
-<section id="and-more-1" class="slide level2 smaller">
+<section id="and-more-1" class="slide level2 smaller" data-transition="none">
 <h2>And more…</h2>
 <h3 id="datagotchi-literature">Datagotchi Literature</h3>
 <div class="columns">
@@ -573,81 +616,197 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <p><img data-src="img/datagotchi_litt.png"></p>
 </div><div class="column" style="padding-left: 2em;">
 <ul>
-<li><strong>Partnership with Les Libraires</strong></li>
-<li><strong>Predicting favorite literary genres</strong></li>
-<li><strong>Personalized literary recommendations</strong></li>
-<li><strong>Bookmarks with a QR code for each literary genre to provide easy access to recommendations</strong></li>
-<li><strong>Presence at book fairs to showcase the tool, with very positive feedback from readers</strong></li>
+<li><strong>Literary Preferences Analysis</strong>
+<ul>
+<li>Predicting favorite genres &amp; personalized recommendations</li>
+</ul></li>
+<li><strong>Innovative Access Features</strong>
+<ul>
+<li>QR-coded bookmarks for each genre</li>
+</ul></li>
+<li><strong>Partnership &amp; Outreach</strong>
+<ul>
+<li>Collaboration with Les Libraires</li>
+<li>Showcase at book fairs with positive reader feedback</li>
+</ul></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="and-more-2" class="slide level2 smaller">
+<section id="and-more-2" class="slide level2 smaller" data-transition="none">
 <h2>And more…</h2>
 <h3 id="datagotchi-health">Datagotchi Health</h3>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><img data-src="img/datagotchi_sante.png"></p>
-</div><div class="column" style="padding-left: 2em;">
+</div><div class="column" style="width:60%;">
 <ul>
-<li><strong>Predict the level of well-being</strong></li>
-<li><strong>Aims to track and improve your daily well-being habits</strong></li>
-<li><strong>Not just based on lifestyle variables, but also according to your workplace environment, neighborhood, sleep levels, etc.</strong></li>
-<li><strong>Not yet deployed, but currently developing the app</strong></li>
+<li><strong>Predicting well-being levels</strong>
+<ul>
+<li>Based on habits, workplace environment, sleep quality &amp; much more</li>
+</ul></li>
+<li><strong>Key objectives</strong>
+<ul>
+<li>Provide personalized recommendations</li>
+<li>Identify environmental factor affecting well-being</li>
+</ul></li>
+<li><strong>Status</strong>: In active development</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="datagotchi-for-deliberation" class="slide level2 smaller">
+<section id="datagotchi-for-deliberation" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi for Deliberation</h2>
 <h3 id="context">Context</h3>
+<p><br></p>
+<ul>
+<li><strong>AI in urban dynamics</strong>
+<ul>
+<li>Innovative solutions for complex urban challenges (eg. traffic congestion, waste management)</li>
+</ul></li>
+<li><strong>Current public consultation challenges</strong>
+<ul>
+<li>Lack of inclusive deliberative processes</li>
+<li>Limited reach of traditional approaches (roundtables, conferences)</li>
+<li>Perception of AI as complex and intrusive technology</li>
+</ul></li>
+</ul>
 </section>
-<section id="datagotchi-for-deliberation-1" class="slide level2 smaller">
+<section id="datagotchi-for-deliberation-1" class="slide level2 smaller" data-transition="none">
+<h2>Datagotchi for Deliberation</h2>
+<h3 id="context-1">Context</h3>
+<p><br></p>
+<ul>
+<li><strong>Need for innovation in deliberative processes</strong>
+<ul>
+<li>Necessity to involve citizens on a large scale</li>
+<li>Strengthen transparency and inclusion in decision-making</li>
+<li>Ensure social acceptability of urban AI solutions</li>
+</ul></li>
+</ul>
+</section>
+<section id="datagotchi-for-deliberation-2" class="slide level2 smaller" data-transition="none">
+<h2>Datagotchi for Deliberation</h2>
+<h3 id="innovation-objectives">Innovation &amp; Objectives</h3>
+<p><br></p>
+<ul>
+<li><strong>Dual innovative use of AI</strong>
+<ul>
+<li>Object of deliberation: use cases for urban services</li>
+<li>Facilitator of deliberation: amplifying the reach of consultations</li>
+</ul></li>
+<li><strong>Datagotchi Deliberation: interactive conversational agent</strong>
+<ul>
+<li>Designed to transform deliberative processes</li>
+<li>Make consultations more inclusive and participatory</li>
+<li>Adapt solutions to citizens’ actual expectations</li>
+</ul></li>
+<li><strong>Pilot project in Mexico (August 2025)</strong>
+<ul>
+<li>Direct involvement of citizens and stakeholders</li>
+</ul></li>
+</ul>
+</section>
+<section id="datagotchi-for-deliberation-3" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi for Deliberation</h2>
 <h3 id="steps">4 steps</h3>
 <p><br></p>
 <ol type="1">
-<li><strong>Deployment of the Datagotchi Chatbot tool</strong></li>
+<li><strong>Deployment of the Chatbot</strong></li>
 <li><strong>Systematic literature review</strong></li>
 <li><strong>Focus groups enhanced by Datagotchi Chatbot</strong></li>
 <li><strong>Expert group meeting</strong></li>
 </ol>
+<aside class="notes">
+<p>First we’ll develop an AI-based conversational agent, accessible and intuitive for all participants. This will allow us to collect and analyze contributions at scale. We’ll then conduct a systematic literature review to identify best practices in citizen deliberation and challenges specific to urban AI projects. We’ll facilitate three deliberative workshops in Mexico, using the conversational agent as a mediator. Finally, we’ll analyze the results and recommendations, validate use cases prioritized by citizens, and develop an ethical and inclusive deployment framework.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="datagotchi-chatbot" class="slide level2 smaller">
 <h2>Datagotchi Chatbot</h2>
-<h3 id="en-cours">En cours</h3>
+<h3 id="specifications-development">Specifications &amp; Development</h3>
 <ul>
-<li>Intégration dans une édition “actuelle”?</li>
+<li><strong>Innovative features</strong>
+<ul>
+<li>Real-time analysis of citizen contributions</li>
+<li>Capacity for synthesis and accessible reformulation</li>
+</ul></li>
+<li><strong>Advantages over traditional methods</strong>
+<ul>
+<li>Expansion of participation scale</li>
+<li>Complete traceability of the deliberative process</li>
+</ul></li>
+<li><strong>Current status</strong>
+<ul>
+<li>Finalization of the conversational agent development</li>
+<li>Integration into a “current” edition?</li>
+</ul></li>
 </ul>
 </section>
-<section id="datagotchi-for-deliberation-2" class="slide level2 smaller">
+<section id="expected-results" class="slide level2 smaller">
+<h2>Expected Results</h2>
+<h3 id="impact-perspectives">Impact &amp; Perspectives</h3>
+<p><br> - <strong>Improvement of deliberative processes</strong> * Exportable model to other urban contexts * Innovative methodology combining AI and citizen deliberation</p>
+<ul>
+<li><strong>Use cases prioritized by citizens</strong>
+<ul>
+<li>AI solutions responding to real community needs</li>
+</ul></li>
+<li><strong>Scientific contribution</strong>
+<ul>
+<li>Advancement of knowledge on AI as a deliberative tool</li>
+</ul></li>
+</ul>
+</section>
+<section id="datagotchi-for-deliberation-4" class="slide level2 smaller">
 <h2>Datagotchi for Deliberation</h2>
 <h3 id="team">Team</h3>
+<p><br></p>
 <ul>
-<li>Manuel Morales, Professor at Université de Montréal</li>
-<li>Yannick Dufresne, Professor at Université Laval</li>
-<li>Catherine Ouellet, Professor at Université de Montréal</li>
-<li>Marc-Antoine Dilhac, Professor at Université de Montréal</li>
-<li>Evelyne Brie, Professor at Université de Montréal</li>
+<li>Manuel Morales, Prof.&nbsp;at Université de Montréal</li>
+<li>Yannick Dufresne, Prof.&nbsp;at Université Laval</li>
+<li>Catherine Ouellet, Prof.&nbsp;at Université de Montréal</li>
+<li>Marc-Antoine Dilhac, Prof.&nbsp;at Université de Montréal</li>
+<li>Evelyne Brie, Prof.&nbsp;at Université de Montréal</li>
 </ul>
 </section>
 <section id="muchas-gracias" class="slide level2 center smaller">
-<h2>Muchas Gracias!</h2>
+<h2>¡Muchas Gracias!</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Camille Pelletier</strong></p>
-<p>camille.pelletier.12@ulaval.ca</p>
-<p><strong>Sarah-Jane Vincent</strong></p>
-<p>sarah-jane.vincent.1@ulaval.ca</p>
-<p><strong>https://www.datagotchi.com/</strong></p>
-<p><strong>Follow us:</strong></p>
-<p>Facebook: Datagotchi</p>
-<p>Bsky: <span class="citation" data-cites="datagotchi.bsky.social">@datagotchi.bsky.social</span></p>
-<p>LinkedIn: Datagotchi_fr &amp; Datagotchi_en</p>
-<p>Instagram: Datagotchi_fr &amp; Datagotchi_en</p>
-<p>X: Datagotchi_fr &amp; Datagotchi_en</p>
-</div><div class="column" style="padding-left: 2em;">
-<p><img data-src="img/websiteDatagotchi.png" class="absolute" style="top: 100px; left: 600px; width: 550px; height: 350px; "></p>
+<div class="column" style="padding-right: 1em;">
+<div style="background-color: rgba(245, 245, 245, 0.7); padding: 15px; border-radius: 10px; margin-top: 20px;">
+<h3 id="contact-us">Contact Us</h3>
+<div style="margin-bottom: 15px;">
+<p><strong>Camille Pelletier</strong><br>
+camille.pelletier.12@ulaval.ca</p>
+<p><strong>Sarah-Jane Vincent</strong><br>
+sarah-jane.vincent.1@ulaval.ca</p>
+</div>
+<h3 id="social-media">Social Media</h3>
+<div style="font-size: 0.9em;">
+<p><i class="fab fa-facebook"></i>: Datagotchi<br>
+<i class="fa fa-at"></i>: <span class="citation" data-cites="datagotchi.bsky.social">@datagotchi.bsky.social</span><br>
+<i class="fab fa-linkedin"></i>: Datagotchi_fr &amp; Datagotchi_en<br>
+<i class="fab fa-instagram"></i>: Datagotchi_fr &amp; Datagotchi_en<br>
+<i class="fab fa-twitter"></i>: Datagotchi_fr &amp; Datagotchi_en</p>
+</div>
+</div>
+</div><div class="column" style="width:55%;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+<img data-src="img/websiteDatagotchi.png" class="absolute" style="top: 100px; left: 600px; width: 550px; height: 350px; ">
+<div style="text-align: center; margin-top: 15px; font-size: 1.2em; font-weight: bold;">
+<p><i class="fas fa-globe"></i> <a href="https://www.datagotchi.com/">www.datagotchi.com</a></p>
+</div>
+</div>
 </div>
 </div>
 <p><img src="img/logo_CLESSN.png" class="slide-logo"></p>

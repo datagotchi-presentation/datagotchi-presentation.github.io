@@ -5,6 +5,9 @@ author: Camille Pelletier<br>Sarah-Jane Vincent
 institute: Université Laval
 format:
   revealjs:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     mermaid: 
       theme: dark
     theme: simple
@@ -16,29 +19,35 @@ format:
 
 ## Presentation outline {.smaller}
 
-<br>
+<div style="margin-bottom: 30px;"></div>
 
-::: {style="font-size: 1.2em; text-align: center;"}
-### The Datagotchi project
+- **The Datagotchi Project**
+   - Foundation and core concepts
 
-### Datagotchi Canada 2025
+<div style="margin-bottom: 20px;"></div>
 
-### Datagotchi - Other Editions
+- **Datagotchi Canada 2025**
 
-### Datagotchi Deliberation
-:::
+<div style="margin-bottom: 20px;"></div>
+
+- **Datagotchi - Other Editions**
+   - International applications
+
+<div style="margin-bottom: 20px;"></div>
+
+- **Datagotchi Deliberation**
+   - Impact and future directions
+
 
 
 ## What is Datagotchi? {.center .smaller} 
-
 ### A little history... {.smaller}
-
 
 :::: {.columns}
 
 :::: {.column width="40%"}
-- Yannick Dufresne, Professor at Université Laval
-- Catherine Ouellet, Professor at Université de Montréal
+- Yannick Dufresne, Prof. at Université Laval
+- Catherine Ouellet, Prof. at Université de Montréal
 
 ![](img/build_voter.png)
 :::
@@ -49,26 +58,32 @@ format:
 :::
 :::
 
-## What is Datagotchi now? {.center .smaller} 
 
-- René Audet, Professor at Université Laval
-- Simon Coulombe, Professor at Université Laval
-- Manuel Morales, Professor at Université de Montréal
-- Alexandre Pelletier, Professor at Université Laval
+
+## What is Datagotchi now? {.center .smaller transition="none"} 
+
+- Manuel Morales, Prof. at Université de Montréal
+- Simon Coulombe, Prof. at Université Laval
+- René Audet, Prof. at Université Laval
+- Alexandre Pelletier, Prof. at Université Laval
 
 ![](img/partenaires.png)
 
-## What is Datagotchi now? {.smaller}
 
-<br>
+## What is Datagotchi now? {.smaller transition="none"}
+
+<div style="margin-bottom: 30px;"></div>
 
 :::: {.columns}
 
 :::: {.column width="60%"}
 - First platform to visualize the impact of lifestyle factors in voting intentions
+
 - Interactive survey with real-time visualization
-- Uses ML to analyze lifestyle variables beyond demographics
-- Predicts voting intentions through massive data analysis
+  * Users receive immediate feedback on how their profile relates to voting patterns
+  * Visualizations update instantly as users input their information
+  * Creates engaging educational experience about electoral behavior
+  
 ::::
 
 ::: {.column width="40%"}
@@ -82,39 +97,43 @@ format:
 Datagotchi is the first-ever platform to use AI and a variety of machine learning routines which allow citizens to visualize in real time how lifestyle can explain (and predict) their voting intentions. Through an interactive and fully illustrated survey, the platform enables the use of massive data and AI to understand the contribution of lifestyle variables (by simultaneously considering several variables from massive databases) in predicting political decision-making and voting, beyond standard socio-demographic predictors.
 :::
 
-## What is Datagotchi? {.smaller} 
 
+
+## What is Datagotchi now? {.smaller transition="none"} 
+### Theoretical Background {.smaller}
+
+* Traditional polling (1940s+)
+  * Social determinants strongly predicted voting behavior (Lazarsfeld et al., 1994)
+  * Key factors included social class, religion, and residential location
+  * These stable cleavages created predictable voting patterns
+  
+<div style="margin-bottom: 30px;"></div>
+
+* Modern electoral shift
+  * Traditional sociological predictors have lost explanatory power 
+  * Societies have become more fragmented and individualized (Dalton, 2000; Franklin, 1984; Norris, 2005)
+  * Voters increasingly make choices based on issues rather than group identity
+
+
+
+## What is Datagotchi now? {.smaller transition="none"} 
 ### Theoretical Background {.smaller}
 
 <div style="margin-bottom: 30px;"></div>
-
-- Traditional polling (1940s+): Key characteristics like social class, religion, and residence strongly predicted voting choice (Lazarsfeld et al., 1994)
-
-<div style="margin-bottom: 30px;"></div>
-
-- Modern shift: Predictive power of conventional cleavages has declined as societies became more fragmented (Dalton, 2000; Franklin, 1984; Norris, 2005)
-
-
-
-## What is Datagotchi? {.smaller} 
-
-### Theoretical Background {.smaller}
-
-<div style="margin-bottom: 30px;"></div>
-
-- Growing heterogeneity within traditional demographic groups (Wessels et al., 2014)
+- Growing heterogeneity within traditional demographic groups
+  * Traditional voting groups no longer vote cohesively
+  * Increased diversity of political opinions within the same social group
+  * Internal fragmentation challenges conventional polling approaches (Wessels et al., 2014)
 
 <div style="margin-bottom: 20px;"></div>
-
-- Lifestyle emerges as critical variable: Intersects individual personality and interests with social/cultural context
-
-<div style="margin-bottom: 20px;"></div>
-
-- Lifestyle helps identify politically significant subgroups beyond traditional demographics
+- Lifestyle emerges as critical variable in electoral behavior
+  * Represents intersection of individual personality and interests
+  * Connects personal attributes with broader social/cultural context
+  * Captures patterns invisible to traditional demographic segmentation
 
 
 
-## How does it work? {.smaller}
+## How does it work? {.smaller transition="none"}
 
 - **Comprehensive pilot survey** - Evaluated question battery with a sample (n=2000)
 - **Data-driven model development** - Statistical selection of app questionnaire items
@@ -122,9 +141,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 ![](img/lifestylePilote.png)
 
 
-
-## How does it work? {.smaller}
-
+## How does it work? {.smaller transition="none"}
 ### Models and Accuracy {.smaller}
 
 <br>
@@ -136,7 +153,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 
 
-## Key objectives {.smaller}
+## Key objectives {.smaller transition="none"}
 
 - Data collection tool
   - Scientific contributions through academic publications, international conferences, etc.
@@ -145,7 +162,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 
 
-## Key objectives {.smaller}
+## Key objectives {.smaller transition="none"}
 
 :::: {.columns}
 
@@ -165,8 +182,9 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ::::
 
-## Key objectives {.smaller}
 
+
+## Key objectives {.smaller transition="none"}
 
 :::: {.columns}
 
@@ -186,13 +204,13 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 ![](img/map_prius_pickup_top.png){.absolute top=10 left=600 width="500" height="300"}
 ![](img/bar_graph_classic_meal_income_fr.png){.absolute top=350 left=600 width="500" height="300"}
 
-
 :::
 
 ::::
 
 
-## Datagotchi Canada 2025 {.smaller}
+
+## Datagotchi Canada 2025 {.smaller transition="none"}
 
 **Current edition**
 
@@ -205,7 +223,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 
 
-## Datagotchi Canada 2025 {.smaller}
+## Datagotchi Canada 2025 {.smaller transition="none"}
 
 ![](img/questionTransport.png){.absolute top=100 left=-125 width="350" height="550"}
 
@@ -214,7 +232,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 ![](img/questionEduc.png){.absolute top=100 left=825 width="350" height="550"}
 
 
-## Datagotchi Canada 2025 {.smaller}
+## Datagotchi Canada 2025 {.smaller transition="none"}
 
 ![](img/votingPrediction.png){.absolute top=100 left=-125 width="350" height="550"}
 
@@ -222,7 +240,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ![](img/peoplePred.png){.absolute top=100 left=825 width="350" height="550"}
 
-## Datagotchi Canada 2025 {.smaller}
+## Datagotchi Canada 2025 {.smaller transition="none"}
 
 ![](img/imageFinaleDatagotchiQuebec.png){.absolute top=100 left=-125 width="450" height="450"}
 
@@ -230,8 +248,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ![](img/imageFinaleDatagotchiCanada.png){.absolute top=100 left=725 width="450" height="450"}
 
-## And more... {.smaller}
-
+## And more... {.smaller transition="none"}
 ### Adaptability & Future Applications
 
 <br>
@@ -246,8 +263,9 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 With the flexible and sustainable infrastructure of Datagotchi, it is possible to adapt the app to other disciplines. The project already received funding to apply the tool in other areas like health. In political science, the goal is to predict attitudes and behaviors beyond vote choice – such as turnout, or attitudes towards issues. As the relationship between lifestyle and politics is contingent on the cultural context, Datagotchi is tailored to the specific culture in which it is deployed. Discussions are underway to develop versions of Datagotchi in other electoral contexts, including Japanese, and Indonesian national elections. 
 :::
 
-## And more... {.smaller}
 
+
+## And more... {.smaller transition="none"}
 ### Datagotchi Literature
 
 :::: {.columns}
@@ -258,17 +276,22 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-- **Partnership with Les Libraires**
-- **Predicting favorite literary genres**
-- **Personalized literary recommendations**
-- **Bookmarks with a QR code for each literary genre to provide easy access to recommendations**
-- **Presence at book fairs to showcase the tool, with very positive feedback from readers**
+- **Literary Preferences Analysis**
+  * Predicting favorite genres & personalized recommendations
+
+- **Innovative Access Features**
+  * QR-coded bookmarks for each genre
+
+- **Partnership & Outreach**
+  * Collaboration with Les Libraires
+  * Showcase at book fairs with positive reader feedback
 :::
 
 ::::
 
-## And more... {.smaller}
 
+
+## And more... {.smaller transition="none"}
 ### Datagotchi Health
 
 :::: {.columns}
@@ -277,79 +300,159 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 ![](img/datagotchi_sante.png)
 :::
 
-::: {.column width="60%" style="padding-left: 2em;"}
-- **Predict the level of well-being**
-- **Aims to track and improve your daily well-being habits**
-- **Not just based on lifestyle variables, but also according to your workplace environment, neighborhood, sleep levels, etc.**
-- **Not yet deployed, but currently developing the app**
+::: {.column width="60%"}
+- **Predicting well-being levels**
+  * Based on habits, workplace environment, sleep quality & much more
+
+- **Key objectives**
+  * Provide personalized recommendations
+  * Identify environmental factor affecting well-being
+
+- **Status**: In active development
+  
 :::
 
 ::::
 
-## Datagotchi for Deliberation {.smaller}
+
+
+## Datagotchi for Deliberation {.smaller transition="none"}
 ### Context
-
-## Datagotchi for Deliberation {.smaller}
-### 4 steps
-
 <br>
 
-1. **Deployment of the Datagotchi Chatbot tool**
+- **AI in urban dynamics**
+  * Innovative solutions for complex urban challenges (eg. traffic congestion, waste management)
+
+- **Current public consultation challenges**
+  * Lack of inclusive deliberative processes
+  * Limited reach of traditional approaches (roundtables, conferences)
+  * Perception of AI as complex and intrusive technology
+
+---
+
+
+
+## Datagotchi for Deliberation {.smaller transition="none"}
+### Context
+<br>
+
+- **Need for innovation in deliberative processes**
+  * Necessity to involve citizens on a large scale
+  * Strengthen transparency and inclusion in decision-making
+  * Ensure social acceptability of urban AI solutions
+  
+  
+
+## Datagotchi for Deliberation {.smaller transition="none"}
+### Innovation & Objectives
+<br>
+
+- **Dual innovative use of AI**
+  * Object of deliberation: use cases for urban services
+  * Facilitator of deliberation: amplifying the reach of consultations
+
+- **Datagotchi Deliberation: interactive conversational agent**
+  * Designed to transform deliberative processes
+  * Make consultations more inclusive and participatory
+  * Adapt solutions to citizens' actual expectations
+
+- **Pilot project in Mexico (August 2025)**
+  * Direct involvement of citizens and stakeholders
+
+---
+
+## Datagotchi for Deliberation {.smaller transition="none"}
+
+### 4 steps
+<br>
+
+1. **Deployment of the Chatbot** 
 2. **Systematic literature review**
 3. **Focus groups enhanced by Datagotchi Chatbot**
 4. **Expert group meeting**
 
+::: {.notes}
+First we'll develop an AI-based conversational agent, accessible and intuitive for all participants. This will allow us to collect and analyze contributions at scale. We'll then conduct a systematic literature review to identify best practices in citizen deliberation and challenges specific to urban AI projects. We'll facilitate three deliberative workshops in Mexico, using the conversational agent as a mediator. Finally, we'll analyze the results and recommendations, validate use cases prioritized by citizens, and develop an ethical and inclusive deployment framework.
+:::
 
+---
 
 ## Datagotchi Chatbot {.smaller}
-### En cours
+### Specifications & Development
 
-- Intégration dans une édition "actuelle"?
+- **Innovative features**
+  * Real-time analysis of citizen contributions
+  * Capacity for synthesis and accessible reformulation
+
+- **Advantages over traditional methods**
+  * Expansion of participation scale
+  * Complete traceability of the deliberative process
+
+- **Current status**
+  * Finalization of the conversational agent development
+  * Integration into a "current" edition?
+
+---
+
+## Expected Results {.smaller}
+### Impact & Perspectives
+<br>
+- **Improvement of deliberative processes**
+  * Exportable model to other urban contexts
+  * Innovative methodology combining AI and citizen deliberation
+
+- **Use cases prioritized by citizens**
+  * AI solutions responding to real community needs
+
+- **Scientific contribution**
+  * Advancement of knowledge on AI as a deliberative tool
+  
+
 
 ## Datagotchi for Deliberation {.smaller}
 ### Team
 
-- Manuel Morales, Professor at Université de Montréal
-- Yannick Dufresne, Professor at Université Laval
-- Catherine Ouellet, Professor at Université de Montréal
-- Marc-Antoine Dilhac, Professor at Université de Montréal
-- Evelyne Brie, Professor at Université de Montréal
+<br>
 
-## Muchas Gracias!{.center .smaller}
+- Manuel Morales, Prof. at Université de Montréal
+- Yannick Dufresne, Prof. at Université Laval
+- Catherine Ouellet, Prof. at Université de Montréal
+- Marc-Antoine Dilhac, Prof. at Université de Montréal
+- Evelyne Brie, Prof. at Université de Montréal
 
+
+
+## ¡Muchas Gracias! {.center .smaller}
 :::: {.columns}
-
-:::: {.column width="50%"}
-**Camille Pelletier**
-
+::: {.column width="45%" style="padding-right: 1em;"}
+<div style="background-color: rgba(245, 245, 245, 0.7); padding: 15px; border-radius: 10px; margin-top: 20px;">
+### Contact Us 
+<div style="margin-bottom: 15px;">
+**Camille Pelletier**  
 camille.pelletier.12@ulaval.ca
 
-**Sarah-Jane Vincent**
-
+**Sarah-Jane Vincent**  
 sarah-jane.vincent.1@ulaval.ca
-
-**https://www.datagotchi.com/**
-
-**Follow us:**
-
-Facebook: Datagotchi
-
-Bsky: @datagotchi.bsky.social
-
-LinkedIn: Datagotchi_fr & Datagotchi_en
-
-Instagram: Datagotchi_fr & Datagotchi_en
-
-X: Datagotchi_fr & Datagotchi_en
-
-
+</div>
+### Social Media 
+<div style="font-size: 0.9em;">
+<i class="fab fa-facebook"></i>: Datagotchi  
+<i class="fa fa-at"></i>: @datagotchi.bsky.social  
+<i class="fab fa-linkedin"></i>: Datagotchi_fr & Datagotchi_en  
+<i class="fab fa-instagram"></i>: Datagotchi_fr & Datagotchi_en  
+<i class="fab fa-twitter"></i>: Datagotchi_fr & Datagotchi_en
+</div>
+</div>
 :::
-
-::: {.column width="50%" style="padding-left: 2em;"}
-
-
-![](img/websiteDatagotchi.png){.absolute top=100 left=600 width="550" height="350"}
+::: {.column width="55%"}
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+![](img/websiteDatagotchi.png){.absolute top=100 left=600 width="550" height="350"} 
+<div style="text-align: center; margin-top: 15px; font-size: 1.2em; font-weight: bold;">
+<i class="fas fa-globe"></i> [www.datagotchi.com](https://www.datagotchi.com/)
+</div>
+</div>
 :::
-:::
+::::
+
 
 
