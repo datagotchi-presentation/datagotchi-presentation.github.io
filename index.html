@@ -488,20 +488,63 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <section id="how-does-it-work" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
 <ul>
-<li><strong>Comprehensive pilot survey</strong> - Evaluated question battery with a sample (n=2000)</li>
-<li><strong>Data-driven model development</strong> - Statistical selection of app questionnaire items</li>
+<li><strong>Comprehensive pilot survey</strong>
+<ul>
+<li>Evaluation of a question battery with a sample (n=2000)</li>
+</ul></li>
 </ul>
+<aside class="notes">
+<p>The project begin with a pilot survey to evaluate the question battery. The questions battery include socio-demographics variables, vote intention questions and many more. This pilot survey is normally conduct on a sample of 2000 respondents. The data collected is then used to develop the data-driven model that underpins the app. The model is developed using statistical selection of the questionnaire items.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <img data-src="img/lifestylePilote.png" class="r-stretch"></section>
 <section id="how-does-it-work-1" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
-<h3 class="smaller" id="models-and-accuracy">Models and Accuracy</h3>
 <p><br></p>
 <ul>
-<li><strong>Multinomial regression models</strong> - Chosen for accuracy and comprehensibility</li>
-<li><strong>Self-improving algorithm</strong> - Refines predictions based on user feedback</li>
-<li><strong>Lifestyle-politics connection</strong> - Significant associations independent of traditional divisions</li>
-<li><strong>Enhanced accuracy</strong> - 11-15% improvement when lifestyle variables added to sociodemographics</li>
+<li><p><strong>Model creation</strong></p>
+<ul>
+<li>Split dataset into training and validation sets</li>
+<li>Identify correlations between a variety of variables (lifestyle, socio-demographic, etc.) and voting intention with multinomial regression models</li>
+<li>Create statistical model to predict voting based on inputs</li>
+<li>Test and validate model performance</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>We choose multinomial regression models for their accuracy and comprehensibility. The model is then refined based on user feedback. The model is then tested and validated to ensure its accuracy. The accuracy of the model is then enhanced by 11-15% when lifestyle variables are added to sociodemographics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="how-does-it-work-2" class="slide level2 smaller" data-transition="none">
+<h2>How does it work?</h2>
+<p><br></p>
+<ul>
+<li><p><strong>App development</strong></p>
+<ul>
+<li>User answers 30 lifestyle questions and socio-demographic questions</li>
+<li>App applies prediction model to responses</li>
+<li>User receives voting prediction</li>
+</ul></li>
+<li><p><strong>Key point</strong>: Prediction made without asking political questions</p></li>
 </ul>
 </section>
 <section id="key-objectives" class="slide level2 smaller" data-transition="none">
@@ -559,8 +602,8 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <p><strong>Current edition</strong></p>
 <p><br></p>
 <ul>
-<li><strong>Main Objective: Predict voting intention for Canadian voters</strong></li>
-<li><strong>New addition: Clusters</strong></li>
+<li><strong>Main Objective</strong>: Predict voting intention for Canadian voters</li>
+<li><strong>New addition</strong>: Clusters</li>
 <li><strong>Partnership with Léger</strong></li>
 <li><strong>Simultaneous use of a panel</strong></li>
 </ul>

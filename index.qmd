@@ -135,23 +135,48 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ## How does it work? {.smaller transition="none"}
 
-- **Comprehensive pilot survey** - Evaluated question battery with a sample (n=2000)
-- **Data-driven model development** - Statistical selection of app questionnaire items
+- **Comprehensive pilot survey** 
+  - Evaluation of a question battery with a sample (n=2000)
+
+::: {.notes}
+The project begin with a pilot survey to evaluate the question battery. The questions battery include socio-demographics variables, vote intention questions and many more. This pilot survey is normally conduct on a sample of 2000 respondents. The data collected is then used to develop the data-driven model that underpins the app. The model is developed using statistical selection of the questionnaire items.
+:::
 
 ![](img/lifestylePilote.png)
 
 
+
 ## How does it work? {.smaller transition="none"}
-### Models and Accuracy {.smaller}
 
 <br>
 
-- **Multinomial regression models** - Chosen for accuracy and comprehensibility
-- **Self-improving algorithm** - Refines predictions based on user feedback
-- **Lifestyle-politics connection** - Significant associations independent of traditional divisions
-- **Enhanced accuracy** - 11-15% improvement when lifestyle variables added to sociodemographics
+- **Model creation** 
+
+  - Split dataset into training and validation sets
+  - Identify correlations between a variety of variables (lifestyle, socio-demographic, etc.) and voting intention with multinomial regression models
+  - Create statistical model to predict voting based on inputs
+  - Test and validate model performance
 
 
+::: {.notes} 
+We choose multinomial regression models for their accuracy and comprehensibility. The model is then refined based on user feedback. The model is then tested and validated to ensure its accuracy. The accuracy of the model is then enhanced by 11-15% when lifestyle variables are added to sociodemographics.
+:::
+
+
+
+## How does it work? {.smaller transition="none"}
+
+<br>
+
+- **App development** 
+
+  - User answers 30 lifestyle questions and socio-demographic questions
+  - App applies prediction model to responses
+  - User receives voting prediction
+
+- **Key point**: Prediction made without asking political questions
+  
+  
 
 ## Key objectives {.smaller transition="none"}
 
@@ -198,6 +223,7 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
   - Partner management
   - Analysis and publication writing
   - Public dissemination of results
+  
 :::
 
 ::: {.column width="40%"}
@@ -216,8 +242,8 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 <br>
 
-- **Main Objective: Predict voting intention for Canadian voters**
-- **New addition: Clusters**
+- **Main Objective**: Predict voting intention for Canadian voters
+- **New addition**: Clusters
 - **Partnership with Léger**
 - **Simultaneous use of a panel**
 
