@@ -341,20 +341,231 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 ::::
 
 
+## And more... {.smaller transition="none"}
+### Datagotchi Chatbot
+
+- Transforming Data Collection Through AI Conversations
+
+  - **Conversational Interface**: Replaces static questionnaire with free-flowing, guided AI dialogue.
+  - **Unstructured Data Capture**: Analyzes semantics, vocabulary, and tone to enrich predictive models.
+  - **Real-Time Education**: AI explains questions, clarifies terms, and contextualizes responses.
+
+
+
+
+## Datagotchi for ... Deliberation? {.center .smaller transition="none"}
+
+
+
+## Evolution: From Forms to Conversation
+
+```{=html}
+<style>
+.form-to-convo-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto 10px;
+  max-width: 90%;
+  height: 400px; /* Fixed height */
+}
+.app-card {
+  width: 45%;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+}
+.app-card h3 {
+  color: #e74c3c;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+.app-card h3.new-version {
+  color: #2980b9;
+}
+.arrow-container {
+  align-self: center;
+  font-size: 1.5em;
+  color: #3498db;
+  padding: 0 10px;
+}
+.app-svg {
+  width: 100%;
+  height: 320px;
+}
+</style>
+
+<div class="form-to-convo-container">
+  <div class="app-card">
+    <h3>Datagotchi 1.0</h3>
+    <svg viewBox="0 0 240 350" class="app-svg">
+      <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"/>
+      <rect x="20" y="60" width="200" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <rect x="20" y="110" width="200" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <rect x="20" y="160" width="200" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <rect x="20" y="210" width="90" height="30" fill="#3498db" rx="5" ry="5"/>
+      <text x="65" y="30" fill="#495057" font-size="14" text-anchor="middle">SURVEY</text>
+      <text x="120" y="80" fill="#495057" font-size="12" text-anchor="middle">What's your age?</text>
+      <text x="120" y="130" fill="#495057" font-size="12" text-anchor="middle">Favorite coffee?</text>
+      <text x="120" y="180" fill="#495057" font-size="12" text-anchor="middle">Car preference?</text>
+      <text x="65" y="230" fill="white" font-size="12" text-anchor="middle">SUBMIT</text>
+    </svg>
+  </div>
+  
+  <div class="arrow-container">→</div>
+  
+  <div class="app-card">
+    <h3 class="new-version">Datagotchi 2.0</h3>
+    <svg viewBox="0 0 240 350" class="app-svg">
+      <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"/>
+      <circle cx="50" cy="50" r="20" fill="#3498db"/>
+      <circle cx="190" cy="120" r="20" fill="#e74c3c"/>
+      <circle cx="50" cy="190" r="20" fill="#3498db"/>
+      <circle cx="190" cy="260" r="20" fill="#e74c3c"/>
+      <path d="M70 50 L170 120" stroke="#6c757d" stroke-width="2"/>
+      <path d="M170 120 L70 190" stroke="#6c757d" stroke-width="2"/>
+      <path d="M70 190 L170 260" stroke="#6c757d" stroke-width="2"/>
+      <rect x="75" y="35" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <rect x="75" y="105" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <rect x="75" y="175" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <rect x="75" y="245" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+      <text x="120" y="55" fill="#495057" font-size="10" text-anchor="middle">Hi there!</text>
+      <text x="120" y="125" fill="#495057" font-size="10" text-anchor="middle">I like lattes!</text>
+      <text x="120" y="195" fill="#495057" font-size="10" text-anchor="middle">What car?</text>
+      <text x="120" y="265" fill="#495057" font-size="10" text-anchor="middle">Prius, actually</text>
+    </svg>
+  </div>
+</div>
+```
+
+## Comparing Data Collection Methods
+
+```{=html}
+<style>
+/* Increase space after title */
+.slide h2 {
+  margin-bottom: 50px !important;
+}
+
+.data-types-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  height: 350px; /* Reduced height */
+  margin: 0 auto;
+}
+.data-column {
+  width: 45%;
+}
+.data-header {
+  color: #2980b9;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.data-header.new {
+  color: #27ae60;
+}
+.data-visual {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  height: 250px; /* Fixed height */
+  border: 1px solid #e0e0e0;
+}
+.data-svg {
+  width: 100%;
+  height: 100%;
+}
+.data-caption {
+  padding: 8px;
+  border-radius: 5px;
+  color: #495057;
+  margin: 0;
+  font-size: 0.9em;
+}
+.traditional-caption {
+  background-color: rgba(52, 152, 219, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+}
+.chatbot-caption {
+  background-color: rgba(39, 174, 96, 0.1);
+  border: 1px solid rgba(39, 174, 96, 0.2);
+}
+</style>
+
+<div class="data-types-container">
+  <div class="data-column">
+    <div class="data-visual">
+      <svg viewBox="0 0 200 200" class="data-svg">
+        <rect x="20" y="20" width="160" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+        <text x="35" y="40" fill="#495057" font-size="12">Question 1:</text>
+        <rect x="40" y="60" width="20" height="20" fill="#3498db" rx="3" ry="3"/>
+        <text x="70" y="75" fill="#495057" font-size="12">Option A</text>
+        <rect x="40" y="90" width="20" height="20" fill="#e9ecef" rx="3" ry="3" stroke="#ced4da" stroke-width="1"/>
+        <text x="70" y="105" fill="#495057" font-size="12">Option B</text>
+        <rect x="40" y="120" width="20" height="20" fill="#e9ecef" rx="3" ry="3" stroke="#ced4da" stroke-width="1"/>
+        <text x="70" y="135" fill="#495057" font-size="12">Option C</text>
+        <rect x="40" y="150" width="20" height="20" fill="#e9ecef" rx="3" ry="3" stroke="#ced4da" stroke-width="1"/>
+        <text x="70" y="165" fill="#495057" font-size="12">Option D</text>
+      </svg>
+    </div>
+    <div class="data-caption traditional-caption">
+      <p>Limited to predefined responses</p>
+    </div>
+  </div>
+  
+  <div class="data-column">
+    <div class="data-visual">
+      <svg viewBox="0 0 200 200" class="data-svg">
+        <rect x="10" y="20" width="140" height="30" fill="#e9ecef" rx="10" ry="10" stroke="#ced4da" stroke-width="1"/>
+        <text x="25" y="40" fill="#495057" font-size="12">Tell me about your car</text>
+        
+        <!-- Wider chat bubble to fit text -->
+        <rect x="60" y="60" width="130" height="40" fill="#27ae60" rx="10" ry="10"/>
+        <text x="70" y="78" fill="white" font-size="9" dominant-baseline="middle">I drive a hybrid because</text>
+        <text x="70" y="93" fill="white" font-size="9" dominant-baseline="middle">I care about the planet</text>
+        
+        <rect x="10" y="110" width="140" height="30" fill="#e9ecef" rx="10" ry="10" stroke="#ced4da" stroke-width="1"/>
+        <text x="25" y="130" fill="#495057" font-size="12">Why is that important?</text>
+        
+        <rect x="60" y="150" width="130" height="30" fill="#27ae60" rx="10" ry="10"/>
+        <text x="70" y="170" fill="white" font-size="9">Climate change concerns</text>
+      </svg>
+    </div>
+    <div class="data-caption chatbot-caption">
+      <p>Captures sentiment, vocabulary, emphasis</p>
+    </div>
+  </div>
+</div>
+```
+
+<!-- NOTES:
+
+- Protocole de Montreal = On doit demander l'avis au monde
+- Difficile de demande l'avis au monde. Coute trop cher
+- Difficile de faire un processus de délibération surtout au niveau des données.
+- Traditionellement on fait des focus groups, conférences, etc.
+- Un chatbot traditionel va repondre aux questions des utilisateurs
+- Notre chatbot va poser des questions aux utilisateurs
+- Il va traiter le langage naturel et le convertir un donnée structurée
+- Il va permettre de sonder la population avec nuance
+
+-->
+
 
 ## Datagotchi for Deliberation {.smaller transition="none"}
 ### Context
 <br>
-
-- **AI in urban dynamics**
-  * Innovative solutions for complex urban challenges (eg. traffic congestion, waste management)
 
 - **Current public consultation challenges**
   * Lack of inclusive deliberative processes
   * Limited reach of traditional approaches (roundtables, conferences)
   * Perception of AI as complex and intrusive technology
 
----
 
 
 
@@ -365,7 +576,7 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 - **Need for innovation in deliberative processes**
   * Necessity to involve citizens on a large scale
   * Strengthen transparency and inclusion in decision-making
-  * Ensure social acceptability of urban AI solutions
+  * Ensure social acceptability 
   
   
 
@@ -373,8 +584,7 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 ### Innovation & Objectives
 <br>
 
-- **Dual innovative use of AI**
-  * Object of deliberation: use cases for urban services
+- **Innovative use of AI**
   * Facilitator of deliberation: amplifying the reach of consultations
 
 - **Datagotchi Deliberation: interactive conversational agent**
@@ -385,7 +595,7 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 - **Pilot project in Mexico (August 2025)**
   * Direct involvement of citizens and stakeholders
 
----
+
 
 ## Datagotchi for Deliberation {.smaller transition="none"}
 
@@ -401,31 +611,15 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 First we'll develop an AI-based conversational agent, accessible and intuitive for all participants. This will allow us to collect and analyze contributions at scale. We'll then conduct a systematic literature review to identify best practices in citizen deliberation and challenges specific to urban AI projects. We'll facilitate three deliberative workshops in Mexico, using the conversational agent as a mediator. Finally, we'll analyze the results and recommendations, validate use cases prioritized by citizens, and develop an ethical and inclusive deployment framework.
 :::
 
----
 
-## Datagotchi Chatbot {.smaller}
-### Specifications & Development
 
-- **Innovative features**
-  * Real-time analysis of citizen contributions
-  * Capacity for synthesis and accessible reformulation
-
-- **Advantages over traditional methods**
-  * Expansion of participation scale
-  * Complete traceability of the deliberative process
-
-- **Current status**
-  * Finalization of the conversational agent development
-  * Integration into a "current" edition?
-
----
 
 ## Expected Results {.smaller}
 ### Impact & Perspectives
 <br>
 
 - **Improvement of deliberative processes**
-  * Exportable model to other urban contexts
+  * Exportable model to other contexts
   * Innovative methodology combining AI and citizen deliberation
 
 - **Use cases prioritized by citizens**
@@ -433,19 +627,6 @@ First we'll develop an AI-based conversational agent, accessible and intuitive f
 
 - **Scientific contribution**
   * Advancement of knowledge on AI as a deliberative tool
-  
-
-
-## Datagotchi for Deliberation {.smaller}
-### Team
-
-<br>
-
-- Manuel Morales, Prof. at Université de Montréal
-- Yannick Dufresne, Prof. at Université Laval
-- Catherine Ouellet, Prof. at Université de Montréal
-- Marc-Antoine Dilhac, Prof. at Université de Montréal
-- Evelyne Brie, Prof. at Université de Montréal
 
 
 
@@ -480,6 +661,4 @@ sarah-jane.vincent.1@ulaval.ca
 </div>
 :::
 ::::
-
-
 
