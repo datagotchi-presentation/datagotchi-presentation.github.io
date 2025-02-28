@@ -705,16 +705,14 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li><p>Transforming Data Collection Through AI Conversations</p>
 <ul>
 <li><strong>Conversational Interface</strong>: Replaces static questionnaire with free-flowing, guided AI dialogue.</li>
-<li><strong>Unstructured Data Capture</strong>: Analyzes semantics, vocabulary, and tone to enrich predictive models.</li>
+<li><strong>Unstructured Data Capture</strong>: Analyzes semantics, vocabulary, and tone.</li>
 <li><strong>Real-Time Education</strong>: AI explains questions, clarifies terms, and contextualizes responses.</li>
 </ul></li>
 </ul>
+<p><strong>Status</strong>: In active development</p>
 </section>
-<section id="datagotchi-for-deliberation" class="slide level2 center smaller" data-transition="none">
-<h2>Datagotchi for … Deliberation?</h2>
-</section>
-<section id="evolution-from-forms-to-conversation" class="slide level2">
-<h2>Evolution: From Forms to Conversation</h2>
+<section id="from-forms-to-conversation" class="slide level2 smaller">
+<h2>From Forms to Conversation</h2>
 <style>
 .form-to-convo-container {
   display: flex;
@@ -754,7 +752,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 
 <div class="form-to-convo-container">
   <div class="app-card">
-    <h3>Datagotchi 1.0</h3>
+    <h3>Datagotchi</h3>
     <svg viewbox="0 0 240 350" class="app-svg">
       <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"></rect>
       <rect x="20" y="60" width="200" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
@@ -772,7 +770,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
   <div class="arrow-container">→</div>
   
   <div class="app-card">
-    <h3 class="new-version">Datagotchi 2.0</h3>
+    <h3 class="new-version">Datagotchi Chatbot</h3>
     <svg viewbox="0 0 240 350" class="app-svg">
       <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"></rect>
       <circle cx="50" cy="50" r="20" fill="#3498db"></circle>
@@ -794,118 +792,27 @@ Camille Pelletier<br>Sarah-Jane Vincent
   </div>
 </div>
 </section>
-<section id="comparing-data-collection-methods" class="slide level2">
-<h2>Comparing Data Collection Methods</h2>
-<style>
-/* Increase space after title */
-.slide h2 {
-  margin-bottom: 50px !important;
-}
-
-.data-types-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 90%;
-  height: 350px; /* Reduced height */
-  margin: 0 auto;
-}
-.data-column {
-  width: 45%;
-}
-.data-header {
-  color: #2980b9;
-  margin-bottom: 10px;
-  font-size: 1.2em;
-}
-.data-header.new {
-  color: #27ae60;
-}
-.data-visual {
-  background-color: #f5f5f5;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 10px;
-  height: 250px; /* Fixed height */
-  border: 1px solid #e0e0e0;
-}
-.data-svg {
-  width: 100%;
-  height: 100%;
-}
-.data-caption {
-  padding: 8px;
-  border-radius: 5px;
-  color: #495057;
-  margin: 0;
-  font-size: 0.9em;
-}
-.traditional-caption {
-  background-color: rgba(52, 152, 219, 0.1);
-  border: 1px solid rgba(52, 152, 219, 0.2);
-}
-.chatbot-caption {
-  background-color: rgba(39, 174, 96, 0.1);
-  border: 1px solid rgba(39, 174, 96, 0.2);
-}
-</style>
-
-<div class="data-types-container">
-  <div class="data-column">
-    <div class="data-visual">
-      <svg viewbox="0 0 200 200" class="data-svg">
-        <rect x="20" y="20" width="160" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
-        <text x="35" y="40" fill="#495057" font-size="12">Question 1:</text>
-        <rect x="40" y="60" width="20" height="20" fill="#3498db" rx="3" ry="3"></rect>
-        <text x="70" y="75" fill="#495057" font-size="12">Option A</text>
-        <rect x="40" y="90" width="20" height="20" fill="#e9ecef" rx="3" ry="3" stroke="#ced4da" stroke-width="1"></rect>
-        <text x="70" y="105" fill="#495057" font-size="12">Option B</text>
-        <rect x="40" y="120" width="20" height="20" fill="#e9ecef" rx="3" ry="3" stroke="#ced4da" stroke-width="1"></rect>
-        <text x="70" y="135" fill="#495057" font-size="12">Option C</text>
-        <rect x="40" y="150" width="20" height="20" fill="#e9ecef" rx="3" ry="3" stroke="#ced4da" stroke-width="1"></rect>
-        <text x="70" y="165" fill="#495057" font-size="12">Option D</text>
-      </svg>
-    </div>
-    <div class="data-caption traditional-caption">
-      <p>Limited to predefined responses</p>
-    </div>
-  </div>
-  
-  <div class="data-column">
-    <div class="data-visual">
-      <svg viewbox="0 0 200 200" class="data-svg">
-        <rect x="10" y="20" width="140" height="30" fill="#e9ecef" rx="10" ry="10" stroke="#ced4da" stroke-width="1"></rect>
-        <text x="25" y="40" fill="#495057" font-size="12">Tell me about your car</text>
-        
-        <!-- Wider chat bubble to fit text -->
-        <rect x="60" y="60" width="130" height="40" fill="#27ae60" rx="10" ry="10"></rect>
-        <text x="70" y="78" fill="white" font-size="9" dominant-baseline="middle">I drive a hybrid because</text>
-        <text x="70" y="93" fill="white" font-size="9" dominant-baseline="middle">I care about the planet</text>
-        
-        <rect x="10" y="110" width="140" height="30" fill="#e9ecef" rx="10" ry="10" stroke="#ced4da" stroke-width="1"></rect>
-        <text x="25" y="130" fill="#495057" font-size="12">Why is that important?</text>
-        
-        <rect x="60" y="150" width="130" height="30" fill="#27ae60" rx="10" ry="10"></rect>
-        <text x="70" y="170" fill="white" font-size="9">Climate change concerns</text>
-      </svg>
-    </div>
-    <div class="data-caption chatbot-caption">
-      <p>Captures sentiment, vocabulary, emphasis</p>
-    </div>
-  </div>
-</div>
-<!-- NOTES:
-
-- Protocole de Montreal = On doit demander l'avis au monde
-- Difficile de demande l'avis au monde. Coute trop cher
-- Difficile de faire un processus de délibération surtout au niveau des données.
-- Traditionellement on fait des focus groups, conférences, etc.
-- Un chatbot traditionel va repondre aux questions des utilisateurs
-- Notre chatbot va poser des questions aux utilisateurs
-- Il va traiter le langage naturel et le convertir un donnée structurée
-- Il va permettre de sonder la population avec nuance
-
--->
+<section id="data-collection-methods" class="slide level2 smaller">
+<h2>Data Collection Methods</h2>
+<ul>
+<li><strong>Traditional survey</strong>
+<ul>
+<li>Limited to predefined options</li>
+<li>Structured and closed-ended questions</li>
+<li>Limited by the initial survey design</li>
+</ul></li>
+<li><strong>Chatbot</strong>
+<ul>
+<li>Reverses the typical chatbot paradigm: asks questions instead of answering them</li>
+<li>Guides users through conversational dialogue to collect opinions</li>
+<li>Captures nuanced perspectives through follow-up questions</li>
+<li>Allows for open-ended responses that reveal unexpected insights</li>
+<li>Adapts question paths based on previous responses</li>
+</ul></li>
+</ul>
+</section>
+<section id="datagotchi-for-deliberation" class="slide level2 center smaller" data-transition="none">
+<h2>Datagotchi for … Deliberation?</h2>
 </section>
 <section id="datagotchi-for-deliberation-1" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi for Deliberation</h2>
@@ -915,8 +822,8 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li><strong>Current public consultation challenges</strong>
 <ul>
 <li>Lack of inclusive deliberative processes</li>
-<li>Limited reach of traditional approaches (roundtables, conferences)</li>
-<li>Perception of AI as complex and intrusive technology</li>
+<li>Limited reach of traditional approaches (focus groups, roundtables, etc.)</li>
+<li>High costs and time constraints</li>
 </ul></li>
 </ul>
 </section>
@@ -935,37 +842,16 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </section>
 <section id="datagotchi-for-deliberation-3" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi for Deliberation</h2>
-<h3 id="innovation-objectives">Innovation &amp; Objectives</h3>
-<p><br></p>
-<ul>
-<li><strong>Innovative use of AI</strong>
-<ul>
-<li>Facilitator of deliberation: amplifying the reach of consultations</li>
-</ul></li>
-<li><strong>Datagotchi Deliberation: interactive conversational agent</strong>
-<ul>
-<li>Designed to transform deliberative processes</li>
-<li>Make consultations more inclusive and participatory</li>
-<li>Adapt solutions to citizens’ actual expectations</li>
-</ul></li>
-<li><strong>Pilot project in Mexico (August 2025)</strong>
-<ul>
-<li>Direct involvement of citizens and stakeholders</li>
-</ul></li>
-</ul>
-</section>
-<section id="datagotchi-for-deliberation-4" class="slide level2 smaller" data-transition="none">
-<h2>Datagotchi for Deliberation</h2>
 <h3 id="steps">4 steps</h3>
 <p><br></p>
 <ol type="1">
-<li><strong>Deployment of the Chatbot</strong></li>
+<li><strong>Deployment of the chatbot</strong></li>
 <li><strong>Systematic literature review</strong></li>
-<li><strong>Focus groups enhanced by Datagotchi Chatbot</strong></li>
+<li><strong>Focus groups enhanced by the chatbot</strong></li>
 <li><strong>Expert group meeting</strong></li>
 </ol>
 <aside class="notes">
-<p>First we’ll develop an AI-based conversational agent, accessible and intuitive for all participants. This will allow us to collect and analyze contributions at scale. We’ll then conduct a systematic literature review to identify best practices in citizen deliberation and challenges specific to urban AI projects. We’ll facilitate three deliberative workshops in Mexico, using the conversational agent as a mediator. Finally, we’ll analyze the results and recommendations, validate use cases prioritized by citizens, and develop an ethical and inclusive deployment framework.</p>
+<p>First we’ll develop an AI-based conversational agent, accessible and intuitive for all participants. This will allow us to collect and analyze contributions at scale. We’ll then conduct a systematic literature review to identify best practices in citizen deliberation and challenges specific projects. We’ll facilitate three deliberative workshops in Mexico, using the conversational agent as a mediator. Finally, we’ll analyze the results and recommendations, validate use cases prioritized by citizens, and develop an ethical and inclusive deployment framework.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -977,6 +863,26 @@ Camille Pelletier<br>Sarah-Jane Vincent
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="datagotchi-for-deliberation-4" class="slide level2 smaller" data-transition="none">
+<h2>Datagotchi for Deliberation</h2>
+<h3 id="key-objectives-3">Key Objectives</h3>
+<p><br></p>
+<ul>
+<li><strong>Innovative use of AI</strong>
+<ul>
+<li>Facilitator of deliberation: amplifying the reach of consultations</li>
+</ul></li>
+<li><strong>Datagotchi Deliberation: interactive conversational agent</strong>
+<ul>
+<li>Make consultations more inclusive and participatory</li>
+<li>Adapt solutions to citizens’ actual expectations</li>
+</ul></li>
+<li><strong>Pilot project in Mexico (August 2025)</strong>
+<ul>
+<li>Direct involvement of citizens</li>
+</ul></li>
+</ul>
 </section>
 <section id="expected-results" class="slide level2 smaller">
 <h2>Expected Results</h2>
