@@ -331,8 +331,8 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
   * Based on habits, workplace environment, sleep quality & much more
 
 - **Key objectives**
+  * Identify factors affecting well-being
   * Provide personalized recommendations
-  * Identify environmental factor affecting well-being
 
 - **Status**: In active development
   
@@ -346,14 +346,19 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
 
 - Transforming Data Collection Through AI Conversations
 
-  - **Conversational Interface**: Replaces static questionnaire with free-flowing, guided AI dialogue.
-  - **Unstructured Data Capture**: Analyzes semantics, vocabulary, and tone.
-  - **Real-Time Education**: AI explains questions, clarifies terms, and contextualizes responses.
+  - **Conversational Interface**
+  - **Capture Unstructured Data**
+  - **Real-Time Education**
 
 **Status**: In active development
 
+::: {.notes}
+1. Replaces static questionnaire with free-flowing, guided AI dialogue. 2. Analyzes semantics, vocabulary, and tone. 3. To have an AI that explains questions, clarifies terms, and contextualizes responses. And more importantly engage users.
+:::
 
-## From Forms to Conversation {.smaller}
+
+
+## From Questionnaires to Conversation {.smaller}
 
 ```{=html}
 <style>
@@ -435,7 +440,9 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
   </div>
 </div>
 ```
-
+::: {.notes}
+We want to go from a basic questionnaire to a more interactive and engaging experience. The chatbot will guide users through a conversation, asking questions and providing information. This will allow for more nuanced responses and a more engaging experience for users. 
+::: 
 
 
 ## Data Collection Methods {.smaller}
@@ -446,68 +453,39 @@ With the flexible and sustainable infrastructure of Datagotchi, it is possible t
   - Limited by the initial survey design
   
 - **Chatbot**
-  - Reverses the typical chatbot paradigm: asks questions instead of answering them
-  - Guides users through conversational dialogue to collect opinions
-  - Captures nuanced perspectives through follow-up questions
   - Allows for open-ended responses that reveal unexpected insights
+  - Captures nuanced perspectives through follow-up questions
   - Adapts question paths based on previous responses
 
 
 
-## Datagotchi for ... Deliberation? {.center .smaller transition="none"}
-
-
-
-## Datagotchi for Deliberation {.smaller transition="none"}
-### Context
-<br>
-
-- **Current public consultation challenges**
-  * Lack of inclusive deliberative processes
-  * Limited reach of traditional approaches (focus groups, roundtables, etc.)
-  * High costs and time constraints
-
-
-
-## Datagotchi for Deliberation {.smaller transition="none"}
-### Context
-<br>
-
-- **Need for innovation in deliberative processes**
-  * Necessity to involve citizens on a large scale
-  * Strengthen transparency and inclusion in decision-making
-  * Ensure social acceptability 
-  
-  
-
-## Datagotchi for Deliberation {.smaller transition="none"}
-### 4 steps
-<br>
-
-1. **Deployment of the chatbot** 
-2. **Systematic literature review**
-3. **Focus groups enhanced by the chatbot**
-4. **Expert group meeting**
+## Datagotchi for ... for sustainable development? {.center .smaller transition="none"}
 
 ::: {.notes}
-First we'll develop an AI-based conversational agent, accessible and intuitive for all participants. This will allow us to collect and analyze contributions at scale. We'll then conduct a systematic literature review to identify best practices in citizen deliberation and challenges specific projects. We'll facilitate three deliberative workshops in Mexico, using the conversational agent as a mediator. Finally, we'll analyze the results and recommendations, validate use cases prioritized by citizens, and develop an ethical and inclusive deployment framework.
-:::
-  
-  
 
-## Datagotchi for Deliberation {.smaller transition="none"}
-### Key Objectives
+:::
+
+
+
+## AI for sustainable development {.smaller}
+### Context
 <br>
 
-- **Innovative use of AI**
-  * Facilitator of deliberation: amplifying the reach of consultations
+More and more companies are integrating and reporting on their sustainability performance or ESG criteria.
 
-- **Datagotchi Deliberation: interactive conversational agent**
-  * Make consultations more inclusive and participatory
-  * Adapt solutions to citizens' actual expectations
+- **Our project**: AI to ensure greater transparency in ESG data to inform decision-making
+  
+  
+  
 
-- **Pilot project in Mexico (August 2025)**
-  * Direct involvement of citizens 
+## Key Objectives {.smaller}
+<br>
+
+- AI to generate information on three dimensions
+
+  - Disclosure: what companies say they do 
+  - The EGS footprint
+  - Companies' ability to embrace the digital shift by examining EGS initiatives and communication efforts
 
 
 
@@ -515,15 +493,11 @@ First we'll develop an AI-based conversational agent, accessible and intuitive f
 ### Impact & Perspectives
 <br>
 
-- **Improvement of deliberative processes**
-  * Exportable model to other contexts
-  * Innovative methodology combining AI and citizen deliberation
+Datagotchi to measure public perceptions of corporate durability practices
 
-- **Use cases prioritized by citizens**
-  * AI solutions responding to real community needs
+- Module Datagotchi permettant de mesurer les perceptions par le public de l’empreinte des entreprises  
+- SG : L’angle mort de ESG
 
-- **Scientific contribution**
-  * Advancement of knowledge on AI as a deliberative tool
 
 
 
