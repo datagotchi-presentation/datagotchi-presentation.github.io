@@ -22,7 +22,6 @@ format:
 <div style="margin-bottom: 30px;"></div>
 
 - **The Datagotchi Project**
-   - Foundation and core concepts
 
 <div style="margin-bottom: 20px;"></div>
 
@@ -30,13 +29,12 @@ format:
 
 <div style="margin-bottom: 20px;"></div>
 
-- **Datagotchi - Other Editions**
-   - International applications
+- **Other Editions**
 
 <div style="margin-bottom: 20px;"></div>
 
-- **Datagotchi Deliberation**
-   - Impact and future directions
+- **Datagotchi for sustainable development**
+
 
 
 
@@ -274,21 +272,6 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 ![](img/imageFinaleDatagotchiCanada.png){.absolute top=100 left=725 width="450" height="450"}
 
-## And more... {.smaller transition="none"}
-### Adaptability & Future Applications
-
-<br>
-
-- **Flexible infrastructure** - Easily adaptable to other disciplines
-- **Health applications** - Project already funded for health-related deployments
-- **Political science expansion** - Predicting turnout and issue attitudes beyond vote choice
-- **Cultural customization** - Tailored to specific cultural contexts where deployed
-- **International versions** - Development underway for Japanese and Indonesian elections
-
-::: {.notes}
-With the flexible and sustainable infrastructure of Datagotchi, it is possible to adapt the app to other disciplines. The project already received funding to apply the tool in other areas like health. In political science, the goal is to predict attitudes and behaviors beyond vote choice – such as turnout, or attitudes towards issues. As the relationship between lifestyle and politics is contingent on the cultural context, Datagotchi is tailored to the specific culture in which it is deployed. Discussions are underway to develop versions of Datagotchi in other electoral contexts, including Japanese, and Indonesian national elections. 
-:::
-
 
 
 ## And more... {.smaller transition="none"}
@@ -459,7 +442,7 @@ We want to go from a basic questionnaire to a more interactive and engaging expe
 
 
 
-## Datagotchi for ... for sustainable development? {.center .smaller transition="none"}
+## Datagotchi for ... sustainable development? {.center .smaller transition="none"}
 
 ::: {.notes}
 
@@ -495,8 +478,8 @@ More and more companies are integrating and reporting on their sustainability pe
 
 Datagotchi to measure public perceptions of corporate durability practices
 
-- Module Datagotchi permettant de mesurer les perceptions par le public de l’empreinte des entreprises  
-- SG : L’angle mort de ESG
+- Datagotchi module for measuring public perceptions of corporate footprints  
+- SG: ESG's blind spot
 
 
 
