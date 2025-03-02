@@ -33,7 +33,7 @@ format:
 
 <div style="margin-bottom: 20px;"></div>
 
-- **Datagotchi for sustainable development**
+- **Datagotchi for Sustainable Development**
 
 
 
@@ -335,8 +335,12 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 **Status**: In active development
 
+![](img/chatbot.png){.absolute top=100 left=600 width="400" height="350"}
+
+
+
 ::: {.notes}
-1. Replaces static questionnaire with free-flowing, guided AI dialogue. 2. Analyzes semantics, vocabulary, and tone. 3. To have an AI that explains questions, clarifies terms, and contextualizes responses. And more importantly engage users.
+1. Replaces static questionnaire with free-flowing guided AI dialogue. 2. Analyzes semantics, vocabulary, and tone. 3. To have an AI that explains questions, clarifies terms, and contextualizes responses. And more importantly engage users.
 :::
 
 
@@ -428,6 +432,7 @@ We want to go from a basic questionnaire to a more interactive and engaging expe
 ::: 
 
 
+
 ## Data Collection Methods {.smaller}
 
 - **Traditional survey**
@@ -450,36 +455,50 @@ We want to go from a basic questionnaire to a more interactive and engaging expe
 
 
 
-## AI for sustainable development {.smaller}
-### Context
+## Why AI could be relevant? {.smaller}
+
 <br>
 
-More and more companies are integrating and reporting on their sustainability performance or ESG criteria.
+- More and more companies are integrating and reporting on their sustainability performance or ESG criteria
 
-- **Our project**: AI to ensure greater transparency in ESG data to inform decision-making
+But what are companies ***really*** doing in terms of their ESG footprint?
   
   
   
 
-## Key Objectives {.smaller}
+## Why AI could be relevant? {.smaller}
+
 <br>
 
-- AI to generate information on three dimensions
+::: {.columns}
 
-  - Disclosure: what companies say they do 
-  - The EGS footprint
-  - Companies' ability to embrace the digital shift by examining EGS initiatives and communication efforts
+::: {.column width="60%" style="border: 1px solid #ccc; padding: 20px; text-align: center;"}
+
+Specifically to better understand one of the blind spot of ESG, the "S"...
+
+:::
+
+::: {.column width="40%"}
+
+- To measure public perceptions of companies' footprints through a large scale N
+
+- Better represent the opinions of communities affected by certain projects
+
+:::
+
+::::
 
 
 
-## Expected Results {.smaller}
-### Impact & Perspectives
-<br>
+## Why AI could be relevant? {.smaller}
 
-Datagotchi to measure public perceptions of corporate durability practices
+<br> 
 
-- Datagotchi module for measuring public perceptions of corporate footprints  
-- SG: ESG's blind spot
+An artificial intelligence tool like Datagotchi or a Chatbot could:
+
+- Ensure greater transparency of ESG data
+- Inform decision-making
+- Bridge the gap between reported metrics and real-world impact
 
 
 
