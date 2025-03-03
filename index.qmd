@@ -35,7 +35,7 @@ format:
 
 4. **Datagotchi for Sustainable Development**
 
-
+![](img/Datagotchi_logo_detourage.png){.absolute top=150 left=800  width="400" height="500"}
 
 
 ## What is Datagotchi? {.center .smaller} 
@@ -75,12 +75,12 @@ format:
 :::: {.columns}
 
 :::: {.column width="60%"}
-- First platform to visualize the impact of lifestyle factors in voting intentions
+- Platform for visualizing how lifestyle variables influence predictions of voting intentions
+  * A fully developed app that supports survey experiments
 
-- Interactive survey with real-time visualization
-  * Users receive immediate feedback on how their profile relates to voting patterns
+- Interactive and fully illustrated survey (featuring work by a pixel art artist)
   * Visualizations update instantly as users input their information
-  * Creates engaging educational experience about electoral behavior
+  * Designed to be playful, keeping users engaged (just as a typical online survey would)
   
 ::::
 
@@ -90,12 +90,6 @@ format:
 :::
 
 ::::
-
-::: {.notes}
-Datagotchi is the first-ever platform to use AI and a variety of machine learning routines which allow citizens to visualize in real time how lifestyle can explain (and predict) their voting intentions. Through an interactive and fully illustrated survey, the platform enables the use of massive data and AI to understand the contribution of lifestyle variables (by simultaneously considering several variables from massive databases) in predicting political decision-making and voting, beyond standard socio-demographic predictors.
-:::
-
-
 
 ## What is Datagotchi now? {.smaller transition="none"} 
 ### Theoretical Background {.smaller}
@@ -186,7 +180,8 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 **Raising awareness on the importance of personal data**:
 
 - Richness and predictive value of individual data 
-  - Political Parties and businesses have access to it and can use it as they wish 
+  - A plethora of possibilities
+  - Businesses and political parties: no ethical restriction on its use
 - Importance of the interactive simulator
   - A tool for depolarization (fostering mutual understanding)
 
@@ -236,11 +231,15 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 
 <div style="margin-bottom: 50px;"></div>
 
-- **Main Objective**: Predict voting intention for Canadian voters
+- **Federal election soon**
+- **Main objective**: Predict voting intention for Canadian voters
 - **New addition**: Clusters based on lifestyle variables
+  - Using k-means, allows for analysis per cluster
 - **Simultaneous use of a panel**
-  - Track questions throughout the whole political campaign
+  - Track survey questions throughout the entire political campaign (e.g., people predictions, potential for growth, and the impact of political advertisements)
 - **Partnership with Léger**
+  - Main survey consortium in Quebec, utilization of their panel
+  - Collaborations with their media partners
 
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
