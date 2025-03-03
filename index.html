@@ -346,27 +346,27 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <div style="margin-bottom: 30px;">
 
 </div>
-<ul>
+<ol type="1">
 <li><strong>The Datagotchi Project</strong></li>
-</ul>
+</ol>
 <div style="margin-bottom: 20px;">
 
 </div>
-<ul>
+<ol start="2" type="1">
 <li><strong>Datagotchi Canada 2025</strong></li>
-</ul>
+</ol>
 <div style="margin-bottom: 20px;">
 
 </div>
-<ul>
+<ol start="3" type="1">
 <li><strong>Other Editions</strong></li>
-</ul>
+</ol>
 <div style="margin-bottom: 20px;">
 
 </div>
-<ul>
+<ol start="4" type="1">
 <li><strong>Datagotchi for Sustainable Development</strong></li>
-</ul>
+</ol>
 </section>
 <section id="what-is-datagotchi" class="slide level2 center smaller">
 <h2>What is Datagotchi?</h2>
@@ -434,8 +434,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li>Traditional polling (1940s+)
 <ul>
 <li>Social determinants strongly predicted voting behavior (Lazarsfeld et al., 1994)</li>
-<li>Key factors included social class, religion, and residential location</li>
-<li>These stable cleavages created predictable voting patterns</li>
+<li>Social class, religion, residential location, etc.</li>
 </ul></li>
 </ul>
 <div style="margin-bottom: 30px;">
@@ -445,8 +444,7 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li>Modern electoral shift
 <ul>
 <li>Traditional sociological predictors have lost explanatory power</li>
-<li>Societies have become more fragmented and individualized (Dalton, 2000; Franklin, 1984; Norris, 2005)</li>
-<li>Voters increasingly make choices based on issues rather than group identity</li>
+<li>Modern societies: + fragmented and individualized (Dalton, 2000; Franklin, 1984; Norris, 2005)</li>
 </ul></li>
 </ul>
 </section>
@@ -460,7 +458,6 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li>Growing heterogeneity within traditional demographic groups
 <ul>
 <li>Traditional voting groups no longer vote cohesively</li>
-<li>Increased diversity of political opinions within the same social group</li>
 <li>Internal fragmentation challenges conventional polling approaches (Wessels et al., 2014)</li>
 </ul></li>
 </ul>
@@ -468,9 +465,8 @@ Camille Pelletier<br>Sarah-Jane Vincent
 
 </div>
 <ul>
-<li>Lifestyle emerges as critical variable in electoral behavior
+<li><strong>Lifestyle</strong> emerges as <strong>critical variable</strong> in electoral behavior
 <ul>
-<li>Represents intersection of individual personality and interests</li>
 <li>Connects personal attributes with broader social/cultural context</li>
 <li>Captures patterns invisible to traditional demographic segmentation</li>
 </ul></li>
@@ -478,91 +474,60 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </section>
 <section id="how-does-it-work" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
-<ul>
-<li><strong>Comprehensive pilot survey</strong>
-<ul>
-<li>Evaluation of a question battery with a sample (n=2000)</li>
-</ul></li>
-</ul>
-<aside class="notes">
-<p>The project begin with a pilot survey to evaluate the question battery. The questions battery include socio-demographics variables, vote intention questions and many more. This pilot survey is normally conduct on a sample of 2000 respondents. The data collected is then used to develop the data-driven model that underpins the app. The model is developed using statistical selection of the questionnaire items.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<p><strong>1. Pilot survey</strong></p>
+<p>Evaluating a battery of questions to assess the most contextually relevant lifestyle variables</p>
 
 <img data-src="img/lifestylePilote.png" class="r-stretch"></section>
 <section id="how-does-it-work-1" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
 <p><br></p>
+<p><strong>2. Model creation</strong></p>
 <ul>
-<li><p><strong>Model creation</strong></p>
+<li>Spliting dataset into training and validation sets</li>
+<li>Identifying correlations between a variety of variables (lifestyle, socio-demographic, etc.) and voting intention with regression models
 <ul>
-<li>Split dataset into training and validation sets</li>
-<li>Identify correlations between a variety of variables (lifestyle, socio-demographic, etc.) and voting intention with multinomial regression models</li>
-<li>Create statistical model to predict voting based on inputs</li>
-<li>Test and validate model performance</li>
+<li>Accuracy of the model is enhanced by 11-15% when lifestyle variables are added to socio-demographics</li>
 </ul></li>
+<li>Creating statistical model to predict voting based on inputs</li>
+<li>Testing and validating model performance</li>
 </ul>
-<aside class="notes">
-<p>We choose multinomial regression models for their accuracy and comprehensibility. The model is then refined based on user feedback. The model is then tested and validated to ensure its accuracy. The accuracy of the model is then enhanced by 11-15% when lifestyle variables are added to sociodemographics.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="how-does-it-work-2" class="slide level2 smaller" data-transition="none">
 <h2>How does it work?</h2>
 <p><br></p>
+<p><strong>3. App development</strong></p>
 <ul>
-<li><p><strong>App development</strong></p>
-<ul>
-<li>User answers 30 lifestyle questions and socio-demographic questions</li>
-<li>App applies prediction model to responses</li>
-<li>User receives voting prediction</li>
-</ul></li>
-<li><p><strong>Key point</strong>: Prediction made without asking political questions</p></li>
+<li>Participants answer ~30 lifestyle and socio-demographic questions</li>
+<li>The app processes these responses using a predictive model</li>
+<li>Users receive their personalized voting prediction</li>
 </ul>
+<p><strong>Key point</strong>: Prediction made without asking political questions</p>
 </section>
 <section id="key-objectives" class="slide level2 smaller" data-transition="none">
 <h2>Key objectives</h2>
-<ul>
-<li>Data collection tool
-<ul>
-<li>Scientific contributions through academic publications, international conferences, etc.</li>
-</ul></li>
-</ul>
+<div style="margin-bottom: 50px;">
+
+</div>
+<p><strong>Data collection tool</strong>: Scientific contributions through academic publications, international conferences, etc.</p>
 <p><img data-src="img/exemplePublication1.png" class="absolute" style="top: 250px; left: 100px; "></p>
 </section>
 <section id="key-objectives-1" class="slide level2 smaller" data-transition="none">
 <h2>Key objectives</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
+<p><strong>Raising awareness on the importance of personal data</strong>:</p>
 <ul>
-<li>Awareness on the importance of personal data
+<li>Richness and predictive value of individual data
 <ul>
-<li>Political Parties and businesses have access to it and can use it as they wish.</li>
-<li>Raising citizen awareness about the richness and predictive value of individual data.</li>
-<li>A tool for depolarization and popularization.</li>
-<li>Importance of the interactive simulator.</li>
+<li>Political Parties and businesses have access to it and can use it as they wish</li>
+</ul></li>
+<li>Importance of the interactive simulator
+<ul>
+<li>A tool for depolarization (fostering mutual understanding)</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:40%;">
-<p><img data-src="img/exempleSimulateur.png" class="absolute" style="top: 10px; left: 700px; "></p>
+<p><img data-src="img/exempleSimulateur.png" class="absolute" style="top: 100px; left: 800px; width: 300px; height: 500px; "></p>
 </div>
 </div>
 </section>
@@ -570,18 +535,17 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <h2>Key objectives</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
+<p><strong>Student training on all stages of the project</strong>:</p>
 <ul>
-<li>Student training on all stages of the project
-<ul>
-<li>Literature review for question selection</li>
-<li>Ethics committee management</li>
-<li>Funding applications</li>
-<li>Survey programming</li>
-<li>Model development</li>
-<li>Partner management</li>
-<li>Analysis and publication writing</li>
-<li>Public dissemination of results</li>
-</ul></li>
+<li>Conducting literature reviews to inform questionnaire design</li>
+<li>Coordinating with ethics committees</li>
+<li>Preparing funding proposals</li>
+<li>Programming surveys</li>
+<li>Creating and refining statistical models</li>
+<li>Maintaining relationships with partners</li>
+<li>Performing data analysis</li>
+<li>Writing academic publications</li>
+<li>Communicating findings to the general public</li>
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="img/map_prius_pickup_top.png" class="absolute" style="top: 10px; left: 600px; width: 500px; height: 300px; "> <img data-src="img/bar_graph_classic_meal_income_fr.png" class="absolute" style="top: 350px; left: 600px; width: 500px; height: 300px; "></p>
@@ -590,13 +554,18 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </section>
 <section id="datagotchi-canada-2025" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi Canada 2025</h2>
-<p><strong>Current edition</strong></p>
-<p><br></p>
+<p><strong>Our latest edition</strong></p>
+<div style="margin-bottom: 50px;">
+
+</div>
 <ul>
 <li><strong>Main Objective</strong>: Predict voting intention for Canadian voters</li>
-<li><strong>New addition</strong>: Clusters</li>
+<li><strong>New addition</strong>: Clusters based on lifestyle variables</li>
+<li><strong>Simultaneous use of a panel</strong>
+<ul>
+<li>Track questions throughout the whole political campaign</li>
+</ul></li>
 <li><strong>Partnership with Léger</strong></li>
-<li><strong>Simultaneous use of a panel</strong></li>
 </ul>
 </section>
 <section id="datagotchi-canada-2025-1" class="slide level2 smaller" data-transition="none">
@@ -613,11 +582,33 @@ Camille Pelletier<br>Sarah-Jane Vincent
 </section>
 <section id="datagotchi-canada-2025-3" class="slide level2 smaller" data-transition="none">
 <h2>Datagotchi Canada 2025</h2>
-<p><img data-src="img/imageFinaleDatagotchiQuebec.png" class="absolute" style="top: 100px; left: -125px; width: 450px; height: 450px; "></p>
-<p><img data-src="img/exempleSimulateur.png" class="absolute" style="top: 100px; left: 350px; width: 350px; height: 550px; "></p>
-<p><img data-src="img/imageFinaleDatagotchiCanada.png" class="absolute" style="top: 100px; left: 725px; width: 450px; height: 450px; "></p>
+<p><img data-src="img/imageFinaleDatagotchiQuebec.png" class="absolute" style="top: 190px; left: -75px; width: 375px; height: 375px; "></p>
+<p><img data-src="img/exempleSimulateur.png" class="absolute" style="top: 150px; left: 380px; width: 275px; height: 450px; "></p>
+<p><img data-src="img/imageFinaleDatagotchiCanada.png" class="absolute" style="top: 190px; left: 745px; width: 375px; height: 375px; "></p>
 </section>
 <section id="and-more" class="slide level2 smaller" data-transition="none">
+<h2>And more…</h2>
+<div style="margin-bottom: 50px;">
+
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Past editions</strong>:</p>
+<ul>
+<li>Datagotchi Canada 2021</li>
+<li>Datagotchi Québec 2022</li>
+<li>Datagotchi US 2024</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Upcoming political editions</strong>:</p>
+<ul>
+<li>Datagotchi Japan</li>
+<li>Datagotchi Indonesia, Tunisia, and Senegal</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="and-more-1" class="slide level2 smaller" data-transition="none">
 <h2>And more…</h2>
 <h3 id="datagotchi-literature">Datagotchi Literature</h3>
 <div class="columns">
@@ -627,7 +618,8 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <ul>
 <li><strong>Literary Preferences Analysis</strong>
 <ul>
-<li>Predicting favorite genres &amp; personalized recommendations</li>
+<li>Predicting favorite genres</li>
+<li>Providing personalized recommendations</li>
 </ul></li>
 <li><strong>Innovative Access Features</strong>
 <ul>
@@ -636,13 +628,13 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li><strong>Partnership &amp; Outreach</strong>
 <ul>
 <li>Collaboration with Les Libraires</li>
-<li>Showcase at book fairs with positive reader feedback</li>
+<li>Showcase at book fairs with positive feedback</li>
 </ul></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="and-more-1" class="slide level2 smaller" data-transition="none">
+<section id="and-more-2" class="slide level2 smaller" data-transition="none">
 <h2>And more…</h2>
 <h3 id="datagotchi-health">Datagotchi Health</h3>
 <div class="columns">
@@ -657,44 +649,33 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <li><strong>Key objectives</strong>
 <ul>
 <li>Identify factors affecting well-being</li>
-<li>Provide personalized recommendations</li>
+<li>Provide personalized recommendations of micro-actions to be implemented</li>
 </ul></li>
 <li><strong>Status</strong>: In active development</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="and-more-2" class="slide level2 smaller" data-transition="none">
+<section id="and-more-3" class="slide level2 smaller" data-transition="none">
 <h2>And more…</h2>
 <h3 id="datagotchi-chatbot">Datagotchi Chatbot</h3>
+<div style="margin-bottom: 50px;">
+
+</div>
+<p><strong>Transforming data collection through AI conversations</strong>:</p>
 <ul>
-<li><p>Transforming Data Collection Through AI Conversations</p>
+<li>Conversational interface</li>
+<li>Capture unstructured data
 <ul>
-<li><strong>Conversational Interface</strong></li>
-<li><strong>Capture Unstructured Data</strong></li>
-<li><strong>Real-Time Education</strong></li>
+<li>For instance, close-ended questions on clothing style and occupation might limit the accuracy of responses</li>
 </ul></li>
+<li>Possibility to analyze semantics, vocabulary, and tone</li>
 </ul>
 <p><strong>Status</strong>: In active development</p>
-<p><img data-src="img/chatbot.png" class="absolute" style="top: 100px; left: 600px; width: 400px; height: 350px; "></p>
-<aside class="notes">
-<ol type="1">
-<li>Replaces static questionnaire with free-flowing guided AI dialogue. 2. Analyzes semantics, vocabulary, and tone. 3. To have an AI that explains questions, clarifies terms, and contextualizes responses. And more importantly engage users.</li>
-</ol>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<p><img data-src="img/chatbot.png" class="absolute" style="top: 62px; left: 392px; width: 100px; height: 100px; "></p>
 </section>
-<section id="from-questionnaires-to-conversation" class="slide level2 smaller">
-<h2>From Questionnaires to Conversation</h2>
+<section id="from-a-static-survey-to-a-dialogue" class="slide level2 smaller">
+<h2>From a static survey to a dialogue</h2>
 <style>
 .form-to-convo-container {
   display: flex;
@@ -744,113 +725,43 @@ Camille Pelletier<br>Sarah-Jane Vincent
       <text x="65" y="30" fill="#495057" font-size="14" text-anchor="middle">SURVEY</text>
       <text x="120" y="80" fill="#495057" font-size="12" text-anchor="middle">What's your age?</text>
       <text x="120" y="130" fill="#495057" font-size="12" text-anchor="middle">Favorite coffee?</text>
-      <text x="120" y="180" fill="#495057" font-size="12" text-anchor="middle">Car preference?</text>
+      <text x="120" y="180" fill="#495057" font-size="12" text-anchor="middle">Occupation?</text>
       <text x="65" y="230" fill="white" font-size="12" text-anchor="middle">SUBMIT</text>
     </svg>
   </div>
   
-  <div class="arrow-container">→</div>
-  
-  <div class="app-card">
-    <h3 class="new-version">Datagotchi Chatbot</h3>
-    <svg viewbox="0 0 240 350" class="app-svg">
-      <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"></rect>
-      <circle cx="50" cy="50" r="20" fill="#3498db"></circle>
-      <circle cx="190" cy="120" r="20" fill="#e74c3c"></circle>
-      <circle cx="50" cy="190" r="20" fill="#3498db"></circle>
-      <circle cx="190" cy="260" r="20" fill="#e74c3c"></circle>
-      <path d="M70 50 L170 120" stroke="#6c757d" stroke-width="2"></path>
-      <path d="M170 120 L70 190" stroke="#6c757d" stroke-width="2"></path>
-      <path d="M70 190 L170 260" stroke="#6c757d" stroke-width="2"></path>
-      <rect x="75" y="35" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
-      <rect x="75" y="105" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
-      <rect x="75" y="175" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
-      <rect x="75" y="245" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
-      <text x="120" y="55" fill="#495057" font-size="10" text-anchor="middle">Hi there!</text>
-      <text x="120" y="125" fill="#495057" font-size="10" text-anchor="middle">I like lattes!</text>
-      <text x="120" y="195" fill="#495057" font-size="10" text-anchor="middle">What car?</text>
-      <text x="120" y="265" fill="#495057" font-size="10" text-anchor="middle">Prius, actually</text>
-    </svg>
-  </div>
-</div>
-<aside class="notes">
-<p>We want to go from a basic questionnaire to a more interactive and engaging experience. The chatbot will guide users through a conversation, asking questions and providing information. This will allow for more nuanced responses and a more engaging experience for users.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="data-collection-methods" class="slide level2 smaller">
-<h2>Data Collection Methods</h2>
-<ul>
-<li><strong>Traditional survey</strong>
-<ul>
-<li>Limited to predefined options</li>
-<li>Structured and closed-ended questions</li>
-<li>Limited by the initial survey design</li>
-</ul></li>
-<li><strong>Chatbot</strong>
-<ul>
-<li>Allows for open-ended responses that reveal unexpected insights</li>
-<li>Captures nuanced perspectives through follow-up questions</li>
-<li>Adapts question paths based on previous responses</li>
-</ul></li>
-</ul>
-</section>
-<section id="datagotchi-for-sustainable-development" class="slide level2 center smaller" data-transition="none">
-<h2>Datagotchi for … sustainable development?</h2>
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="why-ai-could-be-relevant" class="slide level2 smaller">
-<h2>Why AI could be relevant?</h2>
-<p><br></p>
-<ul>
-<li>More and more companies are integrating and reporting on their sustainability performance or ESG criteria</li>
-</ul>
-<p>But what are companies <strong><em>really</em></strong> doing in terms of their ESG footprint?</p>
-</section>
-<section id="why-ai-could-be-relevant-1" class="slide level2 smaller">
-<h2>Why AI could be relevant?</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="border: 1px solid #ccc; padding: 20px; text-align: center;">
-<p>Specifically to better understand one of the blind spot of ESG, the “S”…</p>
-</div><div class="column" style="width:40%;">
-<ul>
-<li><p>To measure public perceptions of companies’ footprints through a large scale N</p></li>
-<li><p>Better represent the opinions of communities affected by certain projects</p></li>
-</ul>
+<div class="app-card">
+  <h3 class="new-version">Datagotchi Chatbot</h3>
+  <svg viewbox="0 0 240 350" class="app-svg">
+    <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"></rect>
+    <!-- Blue dots remain unchanged -->
+    <circle cx="30" cy="50" r="20" fill="#3498db"></circle>
+    <circle cx="30" cy="190" r="20" fill="#3498db"></circle>
+    <!-- Adjusting red dots by moving them further right -->
+    <circle cx="210" cy="120" r="20" fill="#e74c3c"></circle>
+    <circle cx="210" cy="260" r="20" fill="#e74c3c"></circle>
+    <!-- Adjusted paths to connect the dots -->
+    <path d="M70 30 L190 120" stroke="#6c757d" stroke-width="2"></path>
+    <path d="M190 120 L70 190" stroke="#6c757d" stroke-width="2"></path>
+    <path d="M70 190 L190 260" stroke="#6c757d" stroke-width="2"></path>
+    <!-- Boxes remain the same -->
+    <rect x="60" y="27" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
+    <rect x="60" y="97" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
+    <rect x="60" y="167" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
+    <rect x="60" y="237" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"></rect>
+    <text x="120" y="50" fill="#495057" font-size="10" text-anchor="middle">Hi there! What is</text>
+    <text x="120" y="62" fill="#495057" font-size="10" text-anchor="middle">your occupation?</text>
+    <text x="120" y="120" fill="#495057" font-size="10" text-anchor="middle">I'm a full time student and</text>
+    <text x="120" y="132" fill="#495057" font-size="10" text-anchor="middle">I also work 25h a week!</text>
+    <text x="120" y="195" fill="#495057" font-size="10" text-anchor="middle">In what field?</text>
+    <text x="120" y="265" fill="#495057" font-size="10" text-anchor="middle">Sociology, actually</text>
+  </svg>
 </div>
 </div>
 </section>
-<section id="why-ai-could-be-relevant-2" class="slide level2 smaller">
-<h2>Why AI could be relevant?</h2>
-<p><br></p>
-<p>An artificial intelligence tool like Datagotchi or a Chatbot could:</p>
-<ul>
-<li>Ensure greater transparency of ESG data</li>
-<li>Inform decision-making</li>
-<li>Bridge the gap between reported metrics and real-world impact</li>
-</ul>
+<section id="and-finally" class="slide level2 smaller center" data-transition="none">
+<h2>And finally…</h2>
+<h3 id="datagotchi-for-sustainable-development">Datagotchi for sustainable development?</h3>
 </section>
 <section id="muchas-gracias" class="slide level2 center smaller">
 <h2>¡Muchas Gracias!</h2>
@@ -859,26 +770,18 @@ Camille Pelletier<br>Sarah-Jane Vincent
 <div style="background-color: rgba(245, 245, 245, 0.7); padding: 15px; border-radius: 10px; margin-top: 20px;">
 <h3 id="contact-us">Contact Us</h3>
 <div style="margin-bottom: 15px;">
-<p><strong>Camille Pelletier</strong><br>
-camille.pelletier.12@ulaval.ca</p>
-<p><strong>Sarah-Jane Vincent</strong><br>
-sarah-jane.vincent.1@ulaval.ca</p>
+<p><strong>Camille Pelletier</strong><br> camille.pelletier.12@ulaval.ca<br> <strong>Sarah-Jane Vincent</strong><br> sarah-jane.vincent.1@ulaval.ca</p>
 </div>
 <h3 id="social-media">Social Media</h3>
 <div style="font-size: 0.9em;">
-<p><i class="fab fa-facebook"></i>: Datagotchi<br>
-<i class="fa fa-at"></i>: <span class="citation" data-cites="datagotchi.bsky.social">@datagotchi.bsky.social</span><br>
+<p><i class="fab fa-facebook"></i>: Datagotchi<br> <i class="fa fa-at"></i>: <span class="citation" data-cites="datagotchi.bsky.social">@datagotchi.bsky.social</span><br>
 <i class="fab fa-linkedin"></i>: Datagotchi_fr &amp; Datagotchi_en<br>
-<i class="fab fa-instagram"></i>: Datagotchi_fr &amp; Datagotchi_en<br>
-<i class="fab fa-twitter"></i>: Datagotchi_fr &amp; Datagotchi_en</p>
+<i class="fab fa-instagram"></i>: Datagotchi_fr &amp; Datagotchi_en<br> <i class="fab fa-twitter"></i>: Datagotchi_fr &amp; Datagotchi_en <a href="https://www.datagotchi.com/">www.datagotchi.com</a></p>
 </div>
 </div>
 </div><div class="column" style="width:55%;">
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-<img data-src="img/websiteDatagotchi.png" class="absolute" style="top: 100px; left: 600px; width: 550px; height: 350px; ">
-<div style="text-align: center; margin-top: 15px; font-size: 1.2em; font-weight: bold;">
-<p><i class="fas fa-globe"></i> <a href="https://www.datagotchi.com/">www.datagotchi.com</a></p>
-</div>
+<p><img data-src="img/websiteDatagotchi.png" class="absolute" style="top: 100px; left: 550px; width: 550px; height: 350px; "></p>
 </div>
 </div>
 </div>

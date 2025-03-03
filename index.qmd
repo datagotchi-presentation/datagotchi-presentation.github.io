@@ -21,19 +21,19 @@ format:
 
 <div style="margin-bottom: 30px;"></div>
 
-- **The Datagotchi Project**
+1. **The Datagotchi Project**
 
 <div style="margin-bottom: 20px;"></div>
 
-- **Datagotchi Canada 2025**
+2. **Datagotchi Canada 2025**
 
 <div style="margin-bottom: 20px;"></div>
 
-- **Other Editions**
+3. **Other Editions**
 
 <div style="margin-bottom: 20px;"></div>
 
-- **Datagotchi for Sustainable Development**
+4. **Datagotchi for Sustainable Development**
 
 
 
@@ -102,15 +102,13 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 * Traditional polling (1940s+)
   * Social determinants strongly predicted voting behavior (Lazarsfeld et al., 1994)
-  * Key factors included social class, religion, and residential location
-  * These stable cleavages created predictable voting patterns
+  * Social class, religion, residential location, etc.
   
 <div style="margin-bottom: 30px;"></div>
 
 * Modern electoral shift
   * Traditional sociological predictors have lost explanatory power 
-  * Societies have become more fragmented and individualized (Dalton, 2000; Franklin, 1984; Norris, 2005)
-  * Voters increasingly make choices based on issues rather than group identity
+  * Modern societies: + fragmented and individualized (Dalton, 2000; Franklin, 1984; Norris, 2005)
 
 
 
@@ -120,12 +118,10 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 <div style="margin-bottom: 30px;"></div>
 - Growing heterogeneity within traditional demographic groups
   * Traditional voting groups no longer vote cohesively
-  * Increased diversity of political opinions within the same social group
   * Internal fragmentation challenges conventional polling approaches (Wessels et al., 2014)
 
 <div style="margin-bottom: 20px;"></div>
-- Lifestyle emerges as critical variable in electoral behavior
-  * Represents intersection of individual personality and interests
+- **Lifestyle** emerges as **critical variable** in electoral behavior
   * Connects personal attributes with broader social/cultural context
   * Captures patterns invisible to traditional demographic segmentation
 
@@ -133,12 +129,11 @@ Datagotchi is the first-ever platform to use AI and a variety of machine learnin
 
 ## How does it work? {.smaller transition="none"}
 
-- **Comprehensive pilot survey** 
-  - Evaluation of a question battery with a sample (n=2000)
+**1. Pilot survey** 
 
-::: {.notes}
-The project begin with a pilot survey to evaluate the question battery. The questions battery include socio-demographics variables, vote intention questions and many more. This pilot survey is normally conduct on a sample of 2000 respondents. The data collected is then used to develop the data-driven model that underpins the app. The model is developed using statistical selection of the questionnaire items.
-:::
+Evaluating a battery of questions to assess the most contextually relevant lifestyle variables
+
+
 
 ![](img/lifestylePilote.png)
 
@@ -148,17 +143,14 @@ The project begin with a pilot survey to evaluate the question battery. The ques
 
 <br>
 
-- **Model creation** 
+**2. Model creation** 
 
-  - Split dataset into training and validation sets
-  - Identify correlations between a variety of variables (lifestyle, socio-demographic, etc.) and voting intention with multinomial regression models
-  - Create statistical model to predict voting based on inputs
-  - Test and validate model performance
+- Spliting dataset into training and validation sets
+- Identifying correlations between a variety of variables (lifestyle, socio-demographic, etc.) and voting intention with regression models
+  - Accuracy of the model is enhanced by 11-15% when lifestyle variables are added to socio-demographics
+- Creating statistical model to predict voting based on inputs
+- Testing and validating model performance
 
-
-::: {.notes} 
-We choose multinomial regression models for their accuracy and comprehensibility. The model is then refined based on user feedback. The model is then tested and validated to ensure its accuracy. The accuracy of the model is then enhanced by 11-15% when lifestyle variables are added to sociodemographics.
-:::
 
 
 
@@ -166,20 +158,21 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 <br>
 
-- **App development** 
+**3. App development** 
 
-  - User answers 30 lifestyle questions and socio-demographic questions
-  - App applies prediction model to responses
-  - User receives voting prediction
+- Participants answer ~30 lifestyle and socio-demographic questions
+- The app processes these responses using a predictive model
+- Users receive their personalized voting prediction
 
-- **Key point**: Prediction made without asking political questions
+**Key point**: Prediction made without asking political questions
   
   
 
 ## Key objectives {.smaller transition="none"}
 
-- Data collection tool
-  - Scientific contributions through academic publications, international conferences, etc.
+<div style="margin-bottom: 50px;"></div>
+
+**Data collection tool**: Scientific contributions through academic publications, international conferences, etc.
 
 ![](img/exemplePublication1.png){.absolute top=250 left=100}
 
@@ -190,17 +183,18 @@ We choose multinomial regression models for their accuracy and comprehensibility
 :::: {.columns}
 
 ::: {.column width="60%"}
-- Awareness on the importance of personal data
-  - Political Parties and businesses have access to it and can use it as they wish. 
-  - Raising citizen awareness about the richness and predictive value of individual data. 
-  - A tool for depolarization and popularization. 
-  - Importance of the interactive simulator.
+**Raising awareness on the importance of personal data**:
+
+- Richness and predictive value of individual data 
+  - Political Parties and businesses have access to it and can use it as they wish 
+- Importance of the interactive simulator
+  - A tool for depolarization (fostering mutual understanding)
 
 :::
 
 ::: {.column width="40%"}
 
-![](img/exempleSimulateur.png){.absolute top=10 left=700}
+![](img/exempleSimulateur.png){.absolute top=100 left=800 width="300" height="500"}
 :::
 
 ::::
@@ -212,22 +206,24 @@ We choose multinomial regression models for their accuracy and comprehensibility
 :::: {.columns}
 
 ::: {.column width="60%"}
-- Student training on all stages of the project
-  - Literature review for question selection
-  - Ethics committee management
-  - Funding applications
-  - Survey programming
-  - Model development
-  - Partner management
-  - Analysis and publication writing
-  - Public dissemination of results
-  
+
+**Student training on all stages of the project**:
+
+- Conducting literature reviews to inform questionnaire design
+- Coordinating with ethics committees
+- Preparing funding proposals
+- Programming surveys
+- Creating and refining statistical models
+- Maintaining relationships with partners
+- Performing data analysis
+- Writing academic publications
+- Communicating findings to the general public
+
 :::
 
 ::: {.column width="40%"}
 ![](img/map_prius_pickup_top.png){.absolute top=10 left=600 width="500" height="300"}
 ![](img/bar_graph_classic_meal_income_fr.png){.absolute top=350 left=600 width="500" height="300"}
-
 :::
 
 ::::
@@ -236,15 +232,15 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
 
-**Current edition**
+**Our latest edition**
 
-<br>
+<div style="margin-bottom: 50px;"></div>
 
 - **Main Objective**: Predict voting intention for Canadian voters
-- **New addition**: Clusters
-- **Partnership with Léger**
+- **New addition**: Clusters based on lifestyle variables
 - **Simultaneous use of a panel**
-
+  - Track questions throughout the whole political campaign
+- **Partnership with Léger**
 
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
@@ -266,12 +262,40 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
 
-![](img/imageFinaleDatagotchiQuebec.png){.absolute top=100 left=-125 width="450" height="450"}
 
-![](img/exempleSimulateur.png){.absolute top=100 left=350 width="350" height="550"}
+![](img/imageFinaleDatagotchiQuebec.png){.absolute top=190 left=-75 width="375" height="375"}
 
-![](img/imageFinaleDatagotchiCanada.png){.absolute top=100 left=725 width="450" height="450"}
+![](img/exempleSimulateur.png){.absolute top=150 left=380 width="275" height="450"}
 
+![](img/imageFinaleDatagotchiCanada.png){.absolute top=190 left=745 width="375" height="375"}
+
+
+## And more... {.smaller transition="none"}
+
+<div style="margin-bottom: 50px;"></div>
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+**Past editions**:
+
+- Datagotchi Canada 2021
+- Datagotchi Québec 2022
+- Datagotchi US 2024
+
+:::
+
+::: {.column width="50%"}
+
+**Upcoming political editions**:
+
+- Datagotchi Japan
+- Datagotchi Indonesia, Tunisia, and Senegal 
+
+:::
+
+::::
 
 
 ## And more... {.smaller transition="none"}
@@ -286,14 +310,16 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 ::: {.column width="60%" style="padding-left: 2em;"}
 - **Literary Preferences Analysis**
-  * Predicting favorite genres & personalized recommendations
+  - Predicting favorite genres 
+  - Providing personalized recommendations
 
 - **Innovative Access Features**
-  * QR-coded bookmarks for each genre
+  - QR-coded bookmarks for each genre
 
 - **Partnership & Outreach**
-  * Collaboration with Les Libraires
-  * Showcase at book fairs with positive reader feedback
+  - Collaboration with Les Libraires
+  - Showcase at book fairs with positive feedback
+  
 :::
 
 ::::
@@ -315,7 +341,7 @@ We choose multinomial regression models for their accuracy and comprehensibility
 
 - **Key objectives**
   * Identify factors affecting well-being
-  * Provide personalized recommendations
+  * Provide personalized recommendations of micro-actions to be implemented
 
 - **Status**: In active development
   
@@ -327,25 +353,23 @@ We choose multinomial regression models for their accuracy and comprehensibility
 ## And more... {.smaller transition="none"}
 ### Datagotchi Chatbot
 
-- Transforming Data Collection Through AI Conversations
+<div style="margin-bottom: 50px;"></div>
 
-  - **Conversational Interface**
-  - **Capture Unstructured Data**
-  - **Real-Time Education**
+**Transforming data collection through AI conversations**:
+
+- Conversational interface
+- Capture unstructured data
+  - For instance, close-ended questions on clothing style and occupation might limit the accuracy of responses
+- Possibility to analyze semantics, vocabulary, and tone
 
 **Status**: In active development
 
-![](img/chatbot.png){.absolute top=100 left=600 width="400" height="350"}
+
+![](img/chatbot.png){.absolute top=62 left=392 width="100" height="100"}
 
 
 
-::: {.notes}
-1. Replaces static questionnaire with free-flowing guided AI dialogue. 2. Analyzes semantics, vocabulary, and tone. 3. To have an AI that explains questions, clarifies terms, and contextualizes responses. And more importantly engage users.
-:::
-
-
-
-## From Questionnaires to Conversation {.smaller}
+## From a static survey to a dialogue {.smaller}
 
 ```{=html}
 <style>
@@ -397,141 +421,77 @@ We choose multinomial regression models for their accuracy and comprehensibility
       <text x="65" y="30" fill="#495057" font-size="14" text-anchor="middle">SURVEY</text>
       <text x="120" y="80" fill="#495057" font-size="12" text-anchor="middle">What's your age?</text>
       <text x="120" y="130" fill="#495057" font-size="12" text-anchor="middle">Favorite coffee?</text>
-      <text x="120" y="180" fill="#495057" font-size="12" text-anchor="middle">Car preference?</text>
+      <text x="120" y="180" fill="#495057" font-size="12" text-anchor="middle">Occupation?</text>
       <text x="65" y="230" fill="white" font-size="12" text-anchor="middle">SUBMIT</text>
     </svg>
   </div>
   
-  <div class="arrow-container">→</div>
-  
-  <div class="app-card">
-    <h3 class="new-version">Datagotchi Chatbot</h3>
-    <svg viewBox="0 0 240 350" class="app-svg">
-      <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"/>
-      <circle cx="50" cy="50" r="20" fill="#3498db"/>
-      <circle cx="190" cy="120" r="20" fill="#e74c3c"/>
-      <circle cx="50" cy="190" r="20" fill="#3498db"/>
-      <circle cx="190" cy="260" r="20" fill="#e74c3c"/>
-      <path d="M70 50 L170 120" stroke="#6c757d" stroke-width="2"/>
-      <path d="M170 120 L70 190" stroke="#6c757d" stroke-width="2"/>
-      <path d="M70 190 L170 260" stroke="#6c757d" stroke-width="2"/>
-      <rect x="75" y="35" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
-      <rect x="75" y="105" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
-      <rect x="75" y="175" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
-      <rect x="75" y="245" width="90" height="30" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
-      <text x="120" y="55" fill="#495057" font-size="10" text-anchor="middle">Hi there!</text>
-      <text x="120" y="125" fill="#495057" font-size="10" text-anchor="middle">I like lattes!</text>
-      <text x="120" y="195" fill="#495057" font-size="10" text-anchor="middle">What car?</text>
-      <text x="120" y="265" fill="#495057" font-size="10" text-anchor="middle">Prius, actually</text>
-    </svg>
-  </div>
+<div class="app-card">
+  <h3 class="new-version">Datagotchi Chatbot</h3>
+  <svg viewBox="0 0 240 350" class="app-svg">
+    <rect width="240" height="300" fill="#f8f9fa" rx="10" ry="10" stroke="#e0e0e0" stroke-width="1"/>
+    <!-- Blue dots remain unchanged -->
+    <circle cx="30" cy="50" r="20" fill="#3498db"/>
+    <circle cx="30" cy="190" r="20" fill="#3498db"/>
+    <!-- Adjusting red dots by moving them further right -->
+    <circle cx="210" cy="120" r="20" fill="#e74c3c"/>
+    <circle cx="210" cy="260" r="20" fill="#e74c3c"/>
+    <!-- Adjusted paths to connect the dots -->
+    <path d="M70 30 L190 120" stroke="#6c757d" stroke-width="2"/>
+    <path d="M190 120 L70 190" stroke="#6c757d" stroke-width="2"/>
+    <path d="M70 190 L190 260" stroke="#6c757d" stroke-width="2"/>
+    <!-- Boxes remain the same -->
+    <rect x="60" y="27" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+    <rect x="60" y="97" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+    <rect x="60" y="167" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+    <rect x="60" y="237" width="120" height="45" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+    <text x="120" y="50" fill="#495057" font-size="10" text-anchor="middle">Hi there! What is</text>
+    <text x="120" y="62" fill="#495057" font-size="10" text-anchor="middle">your occupation?</text>
+    <text x="120" y="120" fill="#495057" font-size="10" text-anchor="middle">I'm a full time student and</text>
+    <text x="120" y="132" fill="#495057" font-size="10" text-anchor="middle">I also work 25h a week!</text>
+    <text x="120" y="195" fill="#495057" font-size="10" text-anchor="middle">In what field?</text>
+    <text x="120" y="265" fill="#495057" font-size="10" text-anchor="middle">Sociology, actually</text>
+  </svg>
+</div>
 </div>
 ```
-::: {.notes}
-We want to go from a basic questionnaire to a more interactive and engaging experience. The chatbot will guide users through a conversation, asking questions and providing information. This will allow for more nuanced responses and a more engaging experience for users. 
-::: 
 
 
 
-## Data Collection Methods {.smaller}
+## And finally... {.smaller .center transition="none"}
 
-- **Traditional survey**
-  - Limited to predefined options
-  - Structured and closed-ended questions
-  - Limited by the initial survey design
-  
-- **Chatbot**
-  - Allows for open-ended responses that reveal unexpected insights
-  - Captures nuanced perspectives through follow-up questions
-  - Adapts question paths based on previous responses
-
-
-
-## Datagotchi for ... sustainable development? {.center .smaller transition="none"}
-
-::: {.notes}
-
-:::
-
-
-
-## Why AI could be relevant? {.smaller}
-
-<br>
-
-- More and more companies are integrating and reporting on their sustainability performance or ESG criteria
-
-But what are companies ***really*** doing in terms of their ESG footprint?
-  
-  
-  
-
-## Why AI could be relevant? {.smaller}
-
-<br>
-
-::: {.columns}
-
-::: {.column width="60%" style="border: 1px solid #ccc; padding: 20px; text-align: center;"}
-
-Specifically to better understand one of the blind spot of ESG, the "S"...
-
-:::
-
-::: {.column width="40%"}
-
-- To measure public perceptions of companies' footprints through a large scale N
-
-- Better represent the opinions of communities affected by certain projects
-
-:::
-
-::::
-
-
-
-## Why AI could be relevant? {.smaller}
-
-<br> 
-
-An artificial intelligence tool like Datagotchi or a Chatbot could:
-
-- Ensure greater transparency of ESG data
-- Inform decision-making
-- Bridge the gap between reported metrics and real-world impact
-
+### Datagotchi for sustainable development?  
 
 
 
 ## ¡Muchas Gracias! {.center .smaller}
+
 :::: {.columns}
 ::: {.column width="45%" style="padding-right: 1em;"}
 <div style="background-color: rgba(245, 245, 245, 0.7); padding: 15px; border-radius: 10px; margin-top: 20px;">
 ### Contact Us 
 <div style="margin-bottom: 15px;">
-**Camille Pelletier**  
-camille.pelletier.12@ulaval.ca
-
-**Sarah-Jane Vincent**  
+**Camille Pelletier**<br>
+camille.pelletier.12@ulaval.ca<br>
+**Sarah-Jane Vincent**<br>
 sarah-jane.vincent.1@ulaval.ca
 </div>
 ### Social Media 
 <div style="font-size: 0.9em;">
-<i class="fab fa-facebook"></i>: Datagotchi  
+<i class="fab fa-facebook"></i>: Datagotchi<br>
 <i class="fa fa-at"></i>: @datagotchi.bsky.social  
 <i class="fab fa-linkedin"></i>: Datagotchi_fr & Datagotchi_en  
-<i class="fab fa-instagram"></i>: Datagotchi_fr & Datagotchi_en  
+<i class="fab fa-instagram"></i>: Datagotchi_fr & Datagotchi_en<br>
 <i class="fab fa-twitter"></i>: Datagotchi_fr & Datagotchi_en
+[www.datagotchi.com](https://www.datagotchi.com/)
 </div>
 </div>
 :::
+
 ::: {.column width="55%"}
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-![](img/websiteDatagotchi.png){.absolute top=100 left=600 width="550" height="350"} 
-<div style="text-align: center; margin-top: 15px; font-size: 1.2em; font-weight: bold;">
-<i class="fas fa-globe"></i> [www.datagotchi.com](https://www.datagotchi.com/)
-</div>
+![](img/websiteDatagotchi.png){.absolute top=100 left=550 width="550" height="350"} 
 </div>
 :::
-::::
 
+::::
