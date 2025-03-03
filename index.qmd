@@ -270,7 +270,7 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 ![](img/imageFinaleDatagotchiCanada.png){.absolute top=190 left=745 width="375" height="375"}
 
 
-## And more... {.smaller transition="none"}
+## Past and futur editions {.smaller transition="none"}
 
 <div style="margin-bottom: 50px;"></div>
 
@@ -278,7 +278,7 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 
 ::: {.column width="50%"}
 
-**Past editions**:
+**Past political editions**:
 
 - Datagotchi Canada 2021
 - Datagotchi Québec 2022
@@ -309,11 +309,11 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-- **Literary Preferences Analysis**
+- **Analysis based on literary preferences **
   - Predicting favorite genres 
   - Providing personalized recommendations
 
-- **Innovative Access Features**
+- **Implementing innovative access features**
   - QR-coded bookmarks for each genre
 
 - **Partnership**
@@ -360,7 +360,7 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 - Conversational interface
 - Capture unstructured data
   - For instance, close-ended questions on clothing style and occupation might limit the accuracy of responses
-- Possibility to analyze semantics, vocabulary, and tone
+- Possibility to analyze new data... semantics, vocabulary, and tone
 
 **Status**: In active development
 
