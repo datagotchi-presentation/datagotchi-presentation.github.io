@@ -245,20 +245,20 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
 
-![](img/questionTransport.png){.absolute top=100 left=-125 width="350" height="550"}
+![](img/questionTransport.png){.absolute top=150 left=35 width="275" height="450"}
 
-![](img/questionLifestyle.png){.absolute top=100 left=350 width="350" height="550"}
+![](img/questionLifestyle.png){.absolute top=150 left=380 width="275" height="450"}
 
-![](img/questionEduc.png){.absolute top=100 left=825 width="350" height="550"}
+![](img/questionEduc.png){.absolute top=150 left=725 width="275" height="450"}
 
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
 
-![](img/votingPrediction.png){.absolute top=100 left=-125 width="350" height="550"}
+![](img/votingPrediction.png){.absolute top=150 left=35 width="275" height="450"}
 
-![](img/probabilityTurnout.png){.absolute top=100 left=350 width="350" height="550"}
+![](img/probabilityTurnout.png){.absolute top=150 left=380 width="275" height="450"}
 
-![](img/peoplePred.png){.absolute top=100 left=825 width="350" height="550"}
+![](img/peoplePred.png){.absolute top=150 left=725 width="275" height="450"}
 
 ## Datagotchi Canada 2025 {.smaller transition="none"}
 
