@@ -310,10 +310,10 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 
 ::: {.column width="60%" style="padding-left: 2em;"}
 - **Analysis based on literary preferences**
-  - Predicting favorite genres 
-  - Providing personalized recommendations
+  - Predict favorite genres 
+  - Provide personalized recommendations
 
-- **Implementing innovative access features**
+- **Implement innovative access features**
   - QR-coded bookmarks for each genre
 
 - **Partnership**
@@ -337,7 +337,7 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 
 ::: {.column width="60%"}
 - **Predicting well-being levels**
-  * Based on habits, workplace environment, sleep quality & much more
+  * Based on habits, workplace environment, sleep quality & many more variables
 
 - **Key objectives**
   * Identify factors affecting well-being
