@@ -296,6 +296,7 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 
 ::::
 
+![](img/datagotchi_amis.png){.absolute top=450 left=300 width="470" height="300"}
 
 ## And more... {.smaller transition="none"}
 ### Datagotchi Literature
@@ -308,7 +309,7 @@ Evaluating a battery of questions to assess the most contextually relevant lifes
 :::
 
 ::: {.column width="60%" style="padding-left: 2em;"}
-- **Analysis based on literary preferences **
+- **Analysis based on literary preferences**
   - Predicting favorite genres 
   - Providing personalized recommendations
 
